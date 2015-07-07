@@ -145,9 +145,9 @@ for (var prop in buildingInfo) {
       //else
       {
           map.remove();
-          map.setClickable(false);
-          //localStorage.setItem("current",yourLocation);
-          localStorage.setItem("current",KLAUS);
+          //map.setClickable(false);
+          localStorage.setItem("current",yourLocation);
+          //localStorage.setItem("current",KLAUS);
           //localStorage.setItem("currentLng",KLAUS.latLng.lng);
           localStorage.setItem("destination",DESTINATION);
           //localStorage.setItem("destinationLng",DESTINATION.latLng.lng);
@@ -159,6 +159,7 @@ for (var prop in buildingInfo) {
           // var destinationLng = DESTINATION.lng;
           //localStorage.setItem("currentLat","yourLocation.lat");
           //localStorage.setItem("currentLat","yourLocation.lat");
+          //map.getMaps();
       }
     }, 200);
   });
