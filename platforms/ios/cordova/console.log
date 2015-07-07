@@ -9885,3 +9885,53 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-07-06 23:00:05.056 smartBuzz[14247:5215435] (debug)Marker.showInfoWindow
 2015-07-06 23:00:05.057 smartBuzz[14247:5212918] (debug)Map.animateCamera
 2015-07-06 23:00:10.131 smartBuzz[14247:5212918] (debug)Marker.showInfoWindow
+2015-07-06 23:18:40.833 smartBuzz[17737:5327892] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 23:18:40.834 smartBuzz[17737:5327892] Multi-tasking -> Device: YES, App: YES
+2015-07-06 23:18:40.837 smartBuzz[17737:5327892] Unlimited access to network resources
+2015-07-06 23:18:40.840 smartBuzz[17737:5327892] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 23:18:40.997 smartBuzz[17737:5327892] Resetting plugins due to page load.
+2015-07-06 23:18:41.182 smartBuzz[17737:5327892] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/BE08D506-D4F1-406F-B875-82CFE89E2785/smartBuzz.app/www/index.html
+2015-07-06 23:18:41.214 smartBuzz[17737:5327892] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-06 23:18:41.340 smartBuzz[17737:5327892] THREAD WARNING: ['GoogleMaps'] took '76.864990' ms. Plugin should use a background thread.
+2015-07-06 23:18:41.368 smartBuzz[17737:5327892] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-06 23:18:41.369 smartBuzz[17737:5327892] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-06 23:18:42.273 smartBuzz[17737:5327967] (debug)Map.moveCamera
+2015-07-06 23:18:42.273 smartBuzz[17737:5328049] (debug)Map.setOptions
+2015-07-06 23:18:42.310 smartBuzz[17737:5327967] (debug)Marker.createMarker
+2015-07-06 23:18:42.311 smartBuzz[17737:5328049] (debug)Map.moveCamera
+2015-07-06 23:18:42.311 smartBuzz[17737:5328054] (debug)Marker.createMarker
+2015-07-06 23:18:42.316 smartBuzz[17737:5328054] (debug)Marker.showInfoWindow
+2015-07-06 23:18:42.316 smartBuzz[17737:5327969] (debug)Map.animateCamera
+2015-07-06 23:19:05.101 smartBuzz[17737:5327975] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-07-06 23:20:19.897 smartBuzz[21025:5339763] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 23:20:19.898 smartBuzz[21025:5339763] Multi-tasking -> Device: YES, App: YES
+2015-07-06 23:20:19.899 smartBuzz[21025:5339763] Unlimited access to network resources
+2015-07-06 23:20:19.902 smartBuzz[21025:5339763] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-06 23:20:20.030 smartBuzz[21025:5339763] Resetting plugins due to page load.
+2015-07-06 23:20:20.233 smartBuzz[21025:5339763] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/533D755D-2CBB-4C11-B088-7041F1227168/smartBuzz.app/www/index.html
+2015-07-06 23:20:20.264 smartBuzz[21025:5339763] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-06 23:20:20.386 smartBuzz[21025:5339763] THREAD WARNING: ['GoogleMaps'] took '63.016846' ms. Plugin should use a background thread.
+2015-07-06 23:20:20.391 smartBuzz[21025:5339763] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-06 23:20:20.392 smartBuzz[21025:5339763] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-06 23:20:21.356 smartBuzz[21025:5339775] (debug)Map.setOptions
+2015-07-06 23:20:21.356 smartBuzz[21025:5339767] (debug)Map.moveCamera
+2015-07-06 23:20:21.379 smartBuzz[21025:5339775] (debug)Marker.createMarker
+2015-07-06 23:20:21.379 smartBuzz[21025:5339767] (debug)Map.moveCamera
+2015-07-06 23:20:21.379 smartBuzz[21025:5339770] (debug)Marker.createMarker
+2015-07-06 23:20:21.382 smartBuzz[21025:5339770] (debug)Marker.showInfoWindow
+2015-07-06 23:20:21.383 smartBuzz[21025:5339791] (debug)Map.animateCamera
+2015-07-06 23:20:26.434 smartBuzz[21025:5339766] (debug)Marker.showInfoWindow
