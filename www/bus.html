@@ -12,9 +12,11 @@
     <script src="js/jquery.mobile-1.4.4.min.js"></script>
     <script src="js/jquery-ui-1.11.4/jquery-ui.js"></script>
     <script src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <script src="js/shared/angular.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
+    <!--<script src="js/services/bus.js"></script>-->
 	</head>
-<body  ng-app="smartBuzz">
+<body ng-app="smartBuzz">
 
     <section id="wrapper" class="wrapper" ng-controller="MainController">
 
@@ -29,20 +31,44 @@
 
     <div class="tab-content">
     <h1>Walkin' Info</h1>
-    <p> localStorage.getItem("currentLat") <p>
-    <p> localStorage.getItem("currentLng") <p>
-    <p> localStorage.getItem("destinationLat") <p>
-    <p> localStorage.getItem("destinationLng") <p>
+    <div id="result1"></div>
+    <iframe
+    id="myFrame"
+    width="200"
+    height="400"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
+    &origin=33.7758,-84.3947
+  &destination=33.7775, -84.3961
+  &mode=walking"
+     allowfullscreen>
+    </iframe>
+    <button onclick="myFunction()">Go To Google Map!</button>
     </div>
 
     <div class="tab-content">
-    <h4>Bus Info</h4>
+    <h1>Bus Info</h1>
+    <div id="result2"></div>
+    <div class = "businfo" ng-repeat = "entry in busInfo">
+        <p> {{entry._id}} </p>
+        <p> {{entry.location}} </p>
+        <p> {{entry.title}} </p>
+        <p> {{entry.userName}} </p>
+        <p> {{entry.__v}} </p>
     </div>
 
     </div>
     </section>
+<!-- Modules -->
+    <script src="js/app.js"></script>
 
+<!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
 
+    <!-- Services -->
+    <script src="js/services/bus.js"></script>
+
+    <!-- Directives -->
 
 <script>
 
@@ -55,6 +81,8 @@ $(function() {
 
             //hide all content divs and show current one
             $('#v-nav>div.tab-content').hide().eq(items.index($(this))).show('fast');
+            //document.getElementById("result1").innerHTML = localStorage.getItem("current");
+            document.getElementById("result2").innerHTML = localStorage.getItem("destination");
 
             window.location.hash = $(this).attr('tab');
         });
@@ -80,6 +108,33 @@ $(function() {
     $(window).hashchange();
 });
 
+</script>
+
+<script>
+function myFunction() {
+    //document.getElementById("demo").innerHTML = "Hello World";
+    plugin.google.maps.external.launchNavigation({
+          //"from": KLAUS,
+          //"to": result.position
+          "from": localStorage.getItem("current"),
+          //"to":KLAUS
+          "to": localStorage.getItem("destination")
+        });
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var site = 'http://www.apple.com';
+        //var site="https://www.google.com/maps/embed/v1/view?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
+   //&center=33.7758,-84.3947
+   //&zoom=14"
+        //var site = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
+    //&origin=Oslo+Norway
+  //&destination=Telemark+Norway
+  //&mode=walking";
+        $("#myFrame").attr("src", site);
+    });
 </script>
 
 </body>

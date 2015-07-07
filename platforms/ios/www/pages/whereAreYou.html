@@ -115,8 +115,11 @@ for (var prop in buildingInfo) {
      //{
       //  idx += 1;
      //}
-         
-     //if ($("#query").val() === "some words in this name"){
+
+        //set a history record
+
+        //localStorage.setItem("lastDestination",DESTINATION);
+        
         const KLAUS = new plugin.google.maps.LatLng(33.7775, -84.3961);
         const DESTINATION = new plugin.google.maps.LatLng(latitudeTags[idx], longitudeTags[idx]);
           //var result = results[0];
@@ -130,23 +133,24 @@ for (var prop in buildingInfo) {
     
     setTimeout(function() {
       
-      if (confirm("Do you want to walk or take a bus?")) {
-        plugin.google.maps.external.launchNavigation({
-          "from": KLAUS,
+      //if (confirm("Do you want to walk or take a bus?")) {
+        //plugin.google.maps.external.launchNavigation({
+          //"from": KLAUS,
           //"to": result.position
           //"from": yourLocation,
           //"to":KLAUS
-          "to": DESTINATION
-        });
-      }
-      else
+          //"to": DESTINATION
+        //});
+      //}
+      //else
       {
           map.remove();
           map.setClickable(false);
-          localStorage.setItem("currentLat","yourLocation.lat");
-          localStorage.setItem("currentLng","yourLocation.lng");
-          localStorage.setItem("destinationLat","DESTINATION.lat");
-          localStorage.setItem("destinationLng","DESTINATION.lng");
+          //localStorage.setItem("current",yourLocation);
+          localStorage.setItem("current",KLAUS);
+          //localStorage.setItem("currentLng",KLAUS.latLng.lng);
+          localStorage.setItem("destination",DESTINATION);
+          //localStorage.setItem("destinationLng",DESTINATION.latLng.lng);
           window.location.href = "bus.html";
           //passing some value to bus page
           // var currentLat = yourLocation.lat;

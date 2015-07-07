@@ -1,1 +1,1 @@
-var app = angular.module("smartBuzz",[]);
+var app = angular.module('smartBuzz',[]);
