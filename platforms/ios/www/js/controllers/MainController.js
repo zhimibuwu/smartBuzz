@@ -1,7 +1,12 @@
 app.controller('MainController',['$scope','bus',function($scope,bus){
-	bus.success(function(data){
+	//bus.success(function(info){
 
-		$scope.busInfo = data;
+		
+	//	$scope.busInfo = info;
+	bus.success(function(info){
+
+		
+		$scope.busInfo = info;
 	})
 }]
 );

@@ -19,7 +19,7 @@
 	</head>
 <body ng-app="smartBuzz">
 
-    <section id="wrapper" class="wrapper" ng-controller="MainController">
+    <section id="wrapper" class="wrapper">
 
     <h1 class="title"></h1>
 
@@ -48,9 +48,9 @@
     <button onclick="myFunction()" style="width:200px;height:37px">Go To Google Map!</button>
     </div>
 
-    <div class="tab-content">
-    <h1>Bus Info</h1>
-    <div id="result2"></div>
+    <div class="tab-content" ng-controller="MainController">
+    <!--<h1>Bus Info</h1>-->
+    <!--<div id="result2"></div>-->
     <div class = "businfo" ng-repeat = "entry in busInfo">
         <p> {{entry}} </p>
         <!--<p> {{entry.location}} </p>
@@ -84,7 +84,7 @@ $(function() {
             //hide all content divs and show current one
             $('#v-nav>div.tab-content').hide().eq(items.index($(this))).show('fast');
             //document.getElementById("result1").innerHTML = localStorage.getItem("current");
-            document.getElementById("result2").innerHTML = localStorage.getItem("destination");
+            //document.getElementById("result2").innerHTML = localStorage.getItem("destination");
 
             window.location.hash = $(this).attr('tab');
         });
