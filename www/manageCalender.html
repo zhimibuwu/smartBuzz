@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="calendarDemoApp" id="top">
+<head>
+    <title>AngularUI Calendar for AngularJS</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css">
+    <link rel="stylesheet" href="calendarDemo.css" />
+
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ui-bootstrap-tpls-0.9.0.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>
+    <script src="bower_components/fullcalendar/dist/gcal.js"></script>
+    <script src="src/calendar.js"></script>
+    <script src="calendarDemo.js"></script>
+</head>
+<body data-spy="scroll" style="width:55%">
+<div role="main" style="width:50%">
+    <div class="container">
+        <section id="directives-calendar" ng-controller="CalendarCtrl">
+            <div class="well" style="width:33%">
+                <div class="row-fluid">
+
+                    <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
+                    <div class="span8" data-role="page" id="pageone" style="width: 100%">
+                        <a href="#pagetwo"
+                           data-transition="slide"><i class="fa fa-angle-double-down" style="margin-left: 90%; margin-top: 5%">Add
+                            Event</i></a>
+                        <tabset>
+                            <tab select="renderCalender('myCalendar1');">
+                              <tab-heading>
+                               <i class="glyphicon glyphicon-bell"></i> Calendar One
+                              </tab-heading>
+                              <div class="alert-success calAlert" ng-show="alertMessage != undefined && alertMessage != ''">
+                                <h4>{{alertMessage}}</h4>
+                              </div>
+                              <div class="btn-toolbar">
+                                <p class="pull-right lead">Calendar One View Options</p>
+                                <div class="btn-group">
+                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar1')">AgendaDay</button>
+                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar1')">AgendaWeek</button>
+                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar1')">Month</button>
+                                </div>
+                              </div>
+                            <div class="calendar" ng-model="eventSources" calendar="myCalendar1" ui-calendar="uiConfig.calendar"></div>
+                           </tab>
+                           <tab select="renderCalender('myCalendar2');">
+                            <tab-heading>
+                              <i class="glyphicon glyphicon-bell"></i> Calendar Two
+                            </tab-heading>
+                              <div class="alert-success calAlert" ng-show="alertMessage != undefined && alertMessage != ''">
+                                <h4>{{alertMessage}}</h4>
+                              </div>
+                              <div class="btn-toolbar">
+                                <p class="pull-right lead">Calendar Two View Options</p>
+                                <div class="btn-group">
+                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar2')">AgendaDay</button>
+                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar2')">AgendaWeek</button>
+                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar2')">Month</button>
+                                </div>
+                              </div>
+                            <div class="calendar" ng-model="eventSources" calendar="myCalendar2" ui-calendar="uiConfig.calendar"></div>
+                           </tab>
+                           <tab select="renderCalender('myCalendar3');">
+                            <tab-heading>
+                              <i class="glyphicon glyphicon-bell"></i> Calendar Three
+                            </tab-heading>
+                              <div class="alert-success calAlert">
+                                <h4>This calendar uses the extended form</h4>
+                              </div>
+                              <div class="btn-toolbar">
+                                <p class="pull-right lead">Calendar Three View Options</p>
+                                <div class="btn-group">
+                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar3')">AgendaDay</button>
+                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar3')">AgendaWeek</button>
+                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar3')">Month</button>
+                                </div>
+                              </div>
+                            <div class="calendar" ng-model="eventSources2" calendar="myCalendar3" ui-calendar="uiConfig.calendar"></div>
+                           </tab>
+                        </tabset>
+                    </div>
+
+                    <div class="span4" data-role="page" id="pagetwo" style="width: 100%">
+                        <a href="#pageone" data-transition="slide" data-direction="reverse"><i
+                                class="fa fa-angle-double-up" style="margin-left: 90%; margin-top: 5%">Back</i></a>
+                        <div class="btn-group calTools">
+                            <button class="btn" ng-click="addRemoveEventSource(eventSources,eventSource)">
+                                Toggle Source
+                            </button>
+                            <button type="button" class="btn btn-primary btn-info btn-lg" data-toggle="modal"
+                                    data-target="#myModal">
+                                Add Event
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog" style="height: 63%;width:75%;left:105%">
+                                <div class="modal-dialog" style="margin: 0%">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Add Event</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="addEvent">
+                                                <div>
+                                                    Title:<br>
+                                                    <input type="text" name="_title">
+                                                </div>
+                                                <div>
+                                                    Date:    <input type="date" name="_date">
+                                                </div>
+                                                <div>
+                                                    StartTime:    <input type="datetime" name="_datatime">
+                                                </div>
+                                                <div>
+                                                    EndTime: <input type="datetime" name="_enddatatime">
+                                                </div>
+                                                <div>
+                                                    Location:<input type="text" name="_location">
+                                                </div>
+                                                Notification: <input type="checkbox" style="background-color: green;" name="_notification">
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-sm"
+                                                    ng-click="addEvent()" data-dismiss="modal">Save
+                                            </button>
+                                            <button type="button" class="btn btn-default btn-sm"
+                                                    data-dismiss="modal">Cancel
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <ul class="unstyled">
+                            <li ng-repeat="e in events">
+                                <div class="alert alert-info">
+                                    <a class="close" ng-click="remove($index)"><i class="icon-remove"></i></a>
+                                    <b> <input ng-model="e.title"></b>
+                                    {{e.start | date:"MMM dd"}} - {{e.end | date:"MMM dd"}}
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17352735-3']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+        <script>
+function backFunction() {
+    window.location.href = "index.html";
+    //window.history.back();
+    //var map = plugin.google.maps.Map.getMap();
+    //loadPage(map, "whereAreYou");
+}
+</script>
+
+    </body>
+</html>

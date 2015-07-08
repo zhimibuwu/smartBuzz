@@ -40,8 +40,8 @@
     height="350"
     frameborder="0" style="border:0"
     src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
-    &origin=33.7758,-84.3947
-  &destination=33.7775, -84.3961
+    &origin=33.7744,-84.3958
+  &destination=33.7763, -84.3883
   &mode=walking"
      allowfullscreen>
     </iframe>
@@ -51,8 +51,28 @@
     <div class="tab-content" ng-controller="MainController">
     <!--<h1>Bus Info</h1>-->
     <!--<div id="result2"></div>-->
-    <div class = "businfo" ng-repeat = "entry in busInfo">
-        <p> {{entry}} </p>
+    <div class = "businfo">
+        <h4> Get on at </h4>
+        <p>  {{busInfo.start_from}} </p>
+        <hr>
+        <h4> First bus to take </h4>
+        <p>  {{busInfo.two_buses_and_transfer_stops.first_bus_to_take}} </p>
+        <hr>
+        <h4> First bus direction </h4>
+
+        <p>   {{busInfo.two_buses_and_transfer_stops.first_bus_direction}} </p>
+        <hr>
+        <h4> Transfer at </h4>
+        <p>  {{busInfo.two_buses_and_transfer_stops.transfer_at}} </p>
+        <hr>
+        <h4> Second bus to take </h4>
+        <p>    {{busInfo.two_buses_and_transfer_stops.second_bus_to_take}} </p>
+        <hr>
+        <h4> Second bus direction </h4>
+        <p>    {{busInfo.two_buses_and_transfer_stops.second_bus_direction}} </p>
+        <hr>
+        <h4> Get off at </h4>
+        <p>    {{busInfo.end_at}} </p>
         <!--<p> {{entry.location}} </p>
         <p> {{entry.title}} </p>
         <p> {{entry.userName}} </p>

@@ -9,19 +9,19 @@ app.factory('bus', ['$http', function($http) {
   //  'Content-Type': 'application/json'
   //},
   //data: {"format": "json", "topic": "order/created", "url": "http://myshop.example.com/notify_me"}
-  }
+  //}
  	headers: {
-   	'Content-Type': 'application/x-www-form-urlencoded'
+   	'Content-Type': 'application/json'
  	},
- 	data: { curLat:33.77678, curLog:-84.38749, desLat:33.77019, desLog:-84.39174 }
+ 	data: { curLat:33.7744, curLog:-84.3938, desLat:33.7763, desLog:-84.3883 }
 	}
 
 
   return $http(req)
             //.success(function(info) {
               //return info; 
-              .success(function(data) {
-              return data; 
+              .success(function(info) {
+              return info; 
             }) 
             .error(function(err) { 
               return err; 

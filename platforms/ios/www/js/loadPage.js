@@ -32,7 +32,7 @@ $(document).on("deviceready", function() {
     map.off();
     
     var action = $(this).attr("action");
-    loadPage(map, action);
+    loadOtherPage(action);
   });
   
   /**
@@ -88,3 +88,6 @@ function loadPage(map, pageName) {
   });
 }
 
+function loadOtherPage(pageName) {
+  window.location.href = pageName + ".html";
+}

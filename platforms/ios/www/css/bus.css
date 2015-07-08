@@ -114,7 +114,7 @@ body
 {
     margin-left: 50px;
     border: 1px solid #ddd;
-    background-color: #dcf9cf;
+    background-color: white;
     min-height: 400px;
     position: relative;
     z-index: 9;
@@ -128,12 +128,19 @@ body
 
 #v-nav >div.tab-content >h4
 {
-    font-size: 1.2em;
-    color: Black;
-    text-shadow: 0px 1px 1px #F2F1F0;
+    font-size: 160%;
+    color: gray;
+    /*text-shadow: 0px 1px 1px #F2F1F0;
     border-bottom: 1px dotted #EEEDED;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px;*/
 }
 
+#v-nav >div.tab-content >div.businfo>p
+{
+    color: black;
+    font-family:verdana;
+    font-size: 160%;
+
+}
 
