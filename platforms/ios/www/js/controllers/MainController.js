@@ -7,5 +7,10 @@ app.controller('MainController',['$scope','bus',function($scope,bus){
 
 		$scope.busInfo = info[0];
 	})
+
+	//bus2.success(function(data){
+
+	//	$scope.bus = data;
+	//})
 }]
 );

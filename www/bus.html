@@ -14,18 +14,20 @@
     <script src="js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
     <script src="js/shared/angular.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <!--<script type="text/javascript" src="js/loadPage.js"></script>-->
     <!--<script src="js/services/bus.js"></script>-->
 	</head>
 <body ng-app="smartBuzz">
 
-    <section id="wrapper" class="wrapper">
+    <section id="wrapper" class="wrapper" ng-controller="MainController">
 
     <h1 class="title"></h1>
 
     <div id="v-nav">
 
     <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
+    <button onclick="scheduleDelayed()" style="width:120px;height:37px">In 5 sec</span></button>
 
     <ul>
         <li tab="tab1" class="first current">Walk</li>
@@ -39,16 +41,14 @@
     width="200"
     height="350"
     frameborder="0" style="border:0"
-    src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
-    &origin=33.7744,-84.3958
-  &destination=33.7763, -84.3883
-  &mode=walking"
+    src=""
      allowfullscreen>
     </iframe>
     <button onclick="myFunction()" style="width:200px;height:37px">Go To Google Map!</button>
-    </div>
 
-    <div class="tab-content" ng-controller="MainController">
+    </div>
+    
+    <div class="tab-content">
     <!--<h1>Bus Info</h1>-->
     <!--<div id="result2"></div>-->
     <div class = "businfo">
@@ -73,6 +73,7 @@
         <hr>
         <h4> Get off at </h4>
         <p>    {{busInfo.end_at}} </p>
+         
         <!--<p> {{entry.location}} </p>
         <p> {{entry.title}} </p>
         <p> {{entry.userName}} </p>
@@ -146,8 +147,7 @@ function myFunction() {
 </script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        var site = 'http://www.apple.com';
+
         //var site="https://www.google.com/maps/embed/v1/view?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
    //&center=33.7758,-84.3947
    //&zoom=14"
@@ -155,8 +155,12 @@ function myFunction() {
     //&origin=Oslo+Norway
   //&destination=Telemark+Norway
   //&mode=walking";
-        $("#myFrame").attr("src", site);
-    });
+        // src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU
+        //     &origin=33.7744,-84.3958
+        //     &destination=33.7763, -84.3883
+        //     &mode=walking"
+       // document.getElementById('myFrame').src = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU&origin=" + "33.7744,-84.3958" + "&destination=" + "33.7763, -84.3883" + "&mode=walking";
+       document.getElementById('myFrame').src = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU&origin=" + localStorage.getItem("current") + "&destination=" + localStorage.getItem("destination") + "&mode=walking";
 </script>
 
 <script>
@@ -166,6 +170,24 @@ function backFunction() {
     //var map = plugin.google.maps.Map.getMap();
     //loadPage(map, "whereAreYou");
 }
+</script>
+
+<script>
+ function  scheduleDelayed () {
+    var now = new Date().getTime(),
+    _5_sec_from_now = new Date(now + 5 * 1000);
+
+    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+
+    cordova.plugins.notification.local.schedule({
+        id: 1,
+        title: 'Scheduled with delay',
+        text: 'Test Message 1',
+        at: _5_sec_from_now,
+        sound: sound,
+        badge: 1
+        });
+    };
 </script>
 
 </body>
