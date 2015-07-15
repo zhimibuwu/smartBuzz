@@ -1,4 +1,4 @@
-app.factory('bus', ['$http', function($http) { 
+app.factory('bus', ['$http','$q', function($http,$q) { 
 
   var current = localStorage.getItem("current");
   var destination = localStorage.getItem("destination");
@@ -35,13 +35,23 @@ app.factory('bus', ['$http', function($http) {
  //            .error(function(err) { 
  //              return err; 
  //            }); 
-   var req = $http.post('https://smartbuzz.herokuapp.com/path',{ curLat:cLat, curLog:cLng, desLat:dLat, desLog:dLng });
+  //alert(cLat);
+  //alert(cLng);
+  //alert(dLat);
+  //alert(dLng);
+    var req = $http.post('https://smartbuzz.herokuapp.com/path',{curLat:cLat,curLog:cLng,desLat:dLat,desLog:dLng});
+   //var req = $http.post('https://smartbuzz.herokuapp.com/path',{curLat:33.7771,curLog:-84.3891,desLat:33.7775,desLog:-84.3961});
+    var req2 = $http.get('http://m.gatech.edu/widget/buses/content/api/position');
 
-   var req2 = $http.get('http://m.gatech.edu/widget/buses/content/api/position');
-
-
-  //  return $q.all([req,req2])
-  return req
+    //return $q.all([req,req2])
+    // return req
+    //     .then(function(info) {
+    //         return info;
+    //     })
+    //     .catch(function(err) {
+    //         return err;
+    //     });
+      return req
         .success(function(info) {
             return info;
         })

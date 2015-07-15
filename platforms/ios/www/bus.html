@@ -27,7 +27,7 @@
     <div id="v-nav">
 
     <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
-    <button onclick="scheduleDelayed()" style="width:120px;height:37px">In 5 sec</span></button>
+   <!--  <button onclick="scheduleDelayed()" style="width:120px;height:37px">In 5 sec</span></button> -->
 
     <ul>
         <li tab="tab1" class="first current">Walk</li>
@@ -53,6 +53,30 @@
     <!--<div id="result2"></div>-->
     <div class = "businfo">
         <h4> Get on at </h4>
+        <!-- <p>  {{busInfo}} </p> -->
+        <!-- <p>  {{busInfo.data[0].start_from}} </p>
+        <hr>
+        <h4> First bus to take </h4>
+        <p>  {{busInfo.data[0].two_buses_and_transfer_stops.first_bus_to_take}} </p>
+        <hr>
+        <h4> First bus direction </h4>
+
+        <p>   {{busInfo.data[0].two_buses_and_transfer_stops.first_bus_direction}} </p>
+        <hr>
+        <h4> Transfer at </h4>
+        <p>  {{busInfo.data[0].two_buses_and_transfer_stops.transfer_at}} </p>
+        <hr>
+        <h4> Second bus to take </h4>
+        <p>    {{busInfo.data[0].two_buses_and_transfer_stops.second_bus_to_take}} </p>
+        <hr>
+        <h4> Second bus direction </h4>
+        <p>    {{busInfo.data[0].two_buses_and_transfer_stops.second_bus_direction}} </p>
+        <hr>
+        <h4> Get off at </h4>
+        <p>    {{busInfo.data[0].end_at}} </p>
+        <hr>
+        <h4> Status </h4>
+        <p>    {{busInfo.status}} </p> -->
         <p>  {{busInfo.start_from}} </p>
         <hr>
         <h4> First bus to take </h4>
@@ -73,11 +97,10 @@
         <hr>
         <h4> Get off at </h4>
         <p>    {{busInfo.end_at}} </p>
+        <!-- <hr>
+        <h4> Status </h4>
+        <p>    {{busInfo.status}} </p> -->
          
-        <!--<p> {{entry.location}} </p>
-        <p> {{entry.title}} </p>
-        <p> {{entry.userName}} </p>
-        <p> {{entry.__v}} </p>-->
     </div>
 
     </div>

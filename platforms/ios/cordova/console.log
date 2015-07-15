@@ -14036,3 +14036,1068 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-07-13 14:18:34.137 smartBuzz[53176:734889] (debug)Marker.showInfoWindow
 2015-07-13 14:18:34.137 smartBuzz[53176:734394] (debug)Map.animateCamera
 2015-07-13 14:18:39.194 smartBuzz[53176:735993] (debug)Marker.showInfoWindow
+2015-07-14 19:45:56.632 smartBuzz[64795:2511331] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 19:45:56.633 smartBuzz[64795:2511331] Multi-tasking -> Device: YES, App: YES
+2015-07-14 19:45:56.673 smartBuzz[64795:2511331] Unlimited access to network resources
+2015-07-14 19:45:56.691 smartBuzz[64795:2511331] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 19:45:57.273 smartBuzz[64795:2511331] [CDVTimer][localnotification] 0.585973ms
+2015-07-14 19:45:57.273 smartBuzz[64795:2511331] [CDVTimer][localnotification] 0.007033ms
+2015-07-14 19:45:57.273 smartBuzz[64795:2511331] [CDVTimer][TotalPluginStartup] 0.899017ms
+2015-07-14 19:45:57.381 smartBuzz[64795:2511331] active
+2015-07-14 19:45:57.540 smartBuzz[64795:2511331] Resetting plugins due to page load.
+2015-07-14 19:45:58.121 smartBuzz[64795:2511331] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B827D55B-A937-4AD3-AF39-E0D774C5BD78/smartBuzz.app/www/index.html
+2015-07-14 19:45:58.207 smartBuzz[64795:2511331] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 19:45:58.355 smartBuzz[64795:2511331] THREAD WARNING: ['GoogleMaps'] took '143.794922' ms. Plugin should use a background thread.
+2015-07-14 19:45:59.020 smartBuzz[64795:2511331] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 19:45:59.020 smartBuzz[64795:2511331] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 19:45:59.294 smartBuzz[64795:2511331] THREAD WARNING: ['GoogleMaps'] took '16.644043' ms. Plugin should use a background thread.
+2015-07-14 19:45:59.304 smartBuzz[64795:2511763] (debug)Map.moveCamera
+2015-07-14 19:45:59.304 smartBuzz[64795:2511393] (debug)Map.setOptions
+2015-07-14 19:46:01.186 smartBuzz[64795:2511763] (debug)Marker.createMarker
+2015-07-14 19:46:01.194 smartBuzz[64795:2511763] (debug)Map.animateCamera
+2015-07-14 19:46:02.137 smartBuzz[64795:2511392] (debug)Marker.createMarker
+2015-07-14 19:46:02.141 smartBuzz[64795:2511392] (debug)Map.animateCamera
+2015-07-14 19:46:02.144 smartBuzz[64795:2511392] (debug)Marker.showInfoWindow
+2015-07-14 19:46:06.232 smartBuzz[64795:2511763] (debug)Marker.showInfoWindow
+2015-07-14 19:47:10.478 smartBuzz[64795:2511763] (debug)Marker.createMarker
+2015-07-14 19:47:10.481 smartBuzz[64795:2511763] (debug)Marker.showInfoWindow
+2015-07-14 19:47:10.734 smartBuzz[64795:2511331] Resetting plugins due to page load.
+2015-07-14 19:47:11.582 smartBuzz[64795:2511331] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B827D55B-A937-4AD3-AF39-E0D774C5BD78/smartBuzz.app/www/bus.html
+2015-07-14 19:50:26.250 smartBuzz[69352:2536590] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 19:50:26.251 smartBuzz[69352:2536590] Multi-tasking -> Device: YES, App: YES
+2015-07-14 19:50:26.253 smartBuzz[69352:2536590] Unlimited access to network resources
+2015-07-14 19:50:26.256 smartBuzz[69352:2536590] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 19:50:26.339 smartBuzz[69352:2536590] [CDVTimer][localnotification] 0.060976ms
+2015-07-14 19:50:26.339 smartBuzz[69352:2536590] [CDVTimer][localnotification] 0.005007ms
+2015-07-14 19:50:26.340 smartBuzz[69352:2536590] [CDVTimer][TotalPluginStartup] 0.378013ms
+2015-07-14 19:50:26.368 smartBuzz[69352:2536590] active
+2015-07-14 19:50:26.414 smartBuzz[69352:2536590] Resetting plugins due to page load.
+2015-07-14 19:50:26.611 smartBuzz[69352:2536590] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F321DBCD-DC0A-43F4-9EAB-D3FC72027BA4/smartBuzz.app/www/index.html
+2015-07-14 19:50:26.656 smartBuzz[69352:2536590] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 19:50:26.782 smartBuzz[69352:2536590] THREAD WARNING: ['GoogleMaps'] took '91.950195' ms. Plugin should use a background thread.
+2015-07-14 19:50:27.660 smartBuzz[69352:2536590] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 19:50:27.660 smartBuzz[69352:2536590] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 19:50:27.886 smartBuzz[69352:2536670] (debug)Map.setOptions
+2015-07-14 19:50:27.886 smartBuzz[69352:2536725] (debug)Map.moveCamera
+2015-07-14 19:50:27.897 smartBuzz[69352:2536590] THREAD WARNING: ['GoogleMaps'] took '11.557861' ms. Plugin should use a background thread.
+2015-07-14 19:50:27.917 smartBuzz[69352:2536590] THREAD WARNING: ['GoogleMaps'] took '18.088867' ms. Plugin should use a background thread.
+2015-07-14 19:50:29.545 smartBuzz[69352:2536831] (debug)Marker.createMarker
+2015-07-14 19:50:29.551 smartBuzz[69352:2536831] (debug)Map.animateCamera
+2015-07-14 19:50:30.517 smartBuzz[69352:2537116] (debug)Marker.createMarker
+2015-07-14 19:50:30.559 smartBuzz[69352:2537116] (debug)Map.animateCamera
+2015-07-14 19:50:30.560 smartBuzz[69352:2537116] (debug)Marker.showInfoWindow
+2015-07-14 19:50:34.606 smartBuzz[69352:2537116] (debug)Marker.showInfoWindow
+2015-07-14 19:50:38.051 smartBuzz[69352:2536831] (debug)Marker.createMarker
+2015-07-14 19:50:38.055 smartBuzz[69352:2536831] (debug)Marker.showInfoWindow
+2015-07-14 19:50:38.285 smartBuzz[69352:2536590] Resetting plugins due to page load.
+2015-07-14 19:50:39.055 smartBuzz[69352:2536590] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F321DBCD-DC0A-43F4-9EAB-D3FC72027BA4/smartBuzz.app/www/bus.html
+2015-07-14 20:59:05.551 smartBuzz[73936:2561791] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 20:59:05.551 smartBuzz[73936:2561791] Multi-tasking -> Device: YES, App: YES
+2015-07-14 20:59:05.553 smartBuzz[73936:2561791] Unlimited access to network resources
+2015-07-14 20:59:05.555 smartBuzz[73936:2561791] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 20:59:05.627 smartBuzz[73936:2561791] [CDVTimer][localnotification] 0.052989ms
+2015-07-14 20:59:05.627 smartBuzz[73936:2561791] [CDVTimer][localnotification] 0.005007ms
+2015-07-14 20:59:05.627 smartBuzz[73936:2561791] [CDVTimer][TotalPluginStartup] 0.313044ms
+2015-07-14 20:59:05.665 smartBuzz[73936:2561791] active
+2015-07-14 20:59:05.703 smartBuzz[73936:2561791] Resetting plugins due to page load.
+2015-07-14 20:59:05.932 smartBuzz[73936:2561791] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/0FF9E754-50DD-4D83-BF86-D82EC2B7CEAD/smartBuzz.app/www/index.html
+2015-07-14 20:59:05.980 smartBuzz[73936:2561791] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:02:29.179 smartBuzz[78485:2582750] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:02:29.181 smartBuzz[78485:2582750] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:02:29.182 smartBuzz[78485:2582750] Unlimited access to network resources
+2015-07-14 21:02:29.185 smartBuzz[78485:2582750] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:02:29.264 smartBuzz[78485:2582750] [CDVTimer][localnotification] 0.059962ms
+2015-07-14 21:02:29.264 smartBuzz[78485:2582750] [CDVTimer][localnotification] 0.006020ms
+2015-07-14 21:02:29.264 smartBuzz[78485:2582750] [CDVTimer][TotalPluginStartup] 0.326991ms
+2015-07-14 21:02:29.285 smartBuzz[78485:2582750] active
+2015-07-14 21:02:29.358 smartBuzz[78485:2582750] Resetting plugins due to page load.
+2015-07-14 21:02:29.571 smartBuzz[78485:2582750] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/E41E3C4E-955F-4ABD-8242-87FBD2E3336C/smartBuzz.app/www/index.html
+2015-07-14 21:02:29.627 smartBuzz[78485:2582750] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:06:18.112 smartBuzz[83025:2589483] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:06:18.113 smartBuzz[83025:2589483] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:06:18.115 smartBuzz[83025:2589483] Unlimited access to network resources
+2015-07-14 21:06:18.119 smartBuzz[83025:2589483] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:06:18.211 smartBuzz[83025:2589483] [CDVTimer][localnotification] 0.063002ms
+2015-07-14 21:06:18.211 smartBuzz[83025:2589483] [CDVTimer][localnotification] 0.006020ms
+2015-07-14 21:06:18.211 smartBuzz[83025:2589483] [CDVTimer][TotalPluginStartup] 0.393033ms
+2015-07-14 21:06:18.225 smartBuzz[83025:2589483] active
+2015-07-14 21:06:18.287 smartBuzz[83025:2589483] Resetting plugins due to page load.
+2015-07-14 21:06:18.502 smartBuzz[83025:2589483] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/5AD13ABA-041B-40A0-9FD4-B914DE3317B9/smartBuzz.app/www/index.html
+2015-07-14 21:06:18.550 smartBuzz[83025:2589483] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:06:18.723 smartBuzz[83025:2589483] THREAD WARNING: ['GoogleMaps'] took '120.036133' ms. Plugin should use a background thread.
+2015-07-14 21:06:19.314 smartBuzz[83025:2589483] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:06:19.315 smartBuzz[83025:2589483] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:06:19.638 smartBuzz[83025:2589550] (debug)Map.moveCamera
+2015-07-14 21:06:19.638 smartBuzz[83025:2589490] (debug)Map.setOptions
+2015-07-14 21:06:19.660 smartBuzz[83025:2589483] THREAD WARNING: ['GoogleMaps'] took '12.473877' ms. Plugin should use a background thread.
+2015-07-14 21:06:35.404 smartBuzz[83025:2589489] (debug)Marker.createMarker
+2015-07-14 21:06:35.411 smartBuzz[83025:2589489] (debug)Map.animateCamera
+2015-07-14 21:06:36.703 smartBuzz[83025:2589550] (debug)Marker.createMarker
+2015-07-14 21:06:36.706 smartBuzz[83025:2589550] (debug)Map.animateCamera
+2015-07-14 21:06:36.713 smartBuzz[83025:2589550] (debug)Marker.showInfoWindow
+2015-07-14 21:06:40.447 smartBuzz[83025:2589933] (debug)Marker.showInfoWindow
+2015-07-14 21:08:40.647 smartBuzz[87565:2598253] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:08:40.648 smartBuzz[87565:2598253] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:08:40.652 smartBuzz[87565:2598253] Unlimited access to network resources
+2015-07-14 21:08:40.655 smartBuzz[87565:2598253] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:08:40.750 smartBuzz[87565:2598253] [CDVTimer][localnotification] 0.058949ms
+2015-07-14 21:08:40.750 smartBuzz[87565:2598253] [CDVTimer][localnotification] 0.005007ms
+2015-07-14 21:08:40.750 smartBuzz[87565:2598253] [CDVTimer][TotalPluginStartup] 0.339031ms
+2015-07-14 21:08:40.780 smartBuzz[87565:2598253] active
+2015-07-14 21:08:40.830 smartBuzz[87565:2598253] Resetting plugins due to page load.
+2015-07-14 21:08:41.055 smartBuzz[87565:2598253] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/5E1C9933-26AA-4C2C-984A-B007E1BAF7C6/smartBuzz.app/www/index.html
+2015-07-14 21:08:41.098 smartBuzz[87565:2598253] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:10:25.977 smartBuzz[92107:2604140] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:10:25.978 smartBuzz[92107:2604140] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:10:25.979 smartBuzz[92107:2604140] Unlimited access to network resources
+2015-07-14 21:10:25.982 smartBuzz[92107:2604140] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:10:26.051 smartBuzz[92107:2604140] [CDVTimer][localnotification] 0.057995ms
+2015-07-14 21:10:26.051 smartBuzz[92107:2604140] [CDVTimer][localnotification] 0.005960ms
+2015-07-14 21:10:26.052 smartBuzz[92107:2604140] [CDVTimer][TotalPluginStartup] 0.337958ms
+2015-07-14 21:10:26.084 smartBuzz[92107:2604140] active
+2015-07-14 21:10:26.116 smartBuzz[92107:2604140] Resetting plugins due to page load.
+2015-07-14 21:10:26.352 smartBuzz[92107:2604140] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F77964DD-CFC5-400B-B244-9894BB969D7E/smartBuzz.app/www/index.html
+2015-07-14 21:10:26.427 smartBuzz[92107:2604140] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:10:26.529 smartBuzz[92107:2604140] THREAD WARNING: ['GoogleMaps'] took '98.522705' ms. Plugin should use a background thread.
+2015-07-14 21:10:27.059 smartBuzz[92107:2604140] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:10:27.060 smartBuzz[92107:2604140] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:10:27.432 smartBuzz[92107:2604174] (debug)Map.setOptions
+2015-07-14 21:10:27.432 smartBuzz[92107:2604178] (debug)Map.moveCamera
+2015-07-14 21:10:29.984 smartBuzz[92107:2604195] (debug)Marker.createMarker
+2015-07-14 21:10:29.989 smartBuzz[92107:2604195] (debug)Map.animateCamera
+2015-07-14 21:10:30.895 smartBuzz[92107:2604199] (debug)Marker.createMarker
+2015-07-14 21:10:30.899 smartBuzz[92107:2604199] (debug)Map.animateCamera
+2015-07-14 21:10:30.900 smartBuzz[92107:2604199] (debug)Marker.showInfoWindow
+2015-07-14 21:10:35.008 smartBuzz[92107:2604173] (debug)Marker.showInfoWindow
+2015-07-14 21:12:22.122 smartBuzz[96648:2614950] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:12:22.123 smartBuzz[96648:2614950] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:12:22.124 smartBuzz[96648:2614950] Unlimited access to network resources
+2015-07-14 21:12:22.128 smartBuzz[96648:2614950] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:12:22.196 smartBuzz[96648:2614950] [CDVTimer][localnotification] 0.063956ms
+2015-07-14 21:12:22.197 smartBuzz[96648:2614950] [CDVTimer][localnotification] 0.007033ms
+2015-07-14 21:12:22.197 smartBuzz[96648:2614950] [CDVTimer][TotalPluginStartup] 0.373006ms
+2015-07-14 21:12:22.219 smartBuzz[96648:2614950] active
+2015-07-14 21:12:22.269 smartBuzz[96648:2614950] Resetting plugins due to page load.
+2015-07-14 21:12:22.502 smartBuzz[96648:2614950] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9EF6224E-CB6C-4024-B3F4-BDEE92B65357/smartBuzz.app/www/index.html
+2015-07-14 21:12:22.547 smartBuzz[96648:2614950] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:12:22.670 smartBuzz[96648:2614950] THREAD WARNING: ['GoogleMaps'] took '81.237061' ms. Plugin should use a background thread.
+2015-07-14 21:12:23.083 smartBuzz[96648:2614950] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:12:23.083 smartBuzz[96648:2614950] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:12:23.641 smartBuzz[96648:2615000] (debug)Map.setOptions
+2015-07-14 21:12:23.641 smartBuzz[96648:2614996] (debug)Map.moveCamera
+2015-07-14 21:12:25.203 smartBuzz[96648:2614996] (debug)Marker.createMarker
+2015-07-14 21:12:25.211 smartBuzz[96648:2614996] (debug)Map.animateCamera
+2015-07-14 21:12:30.219 smartBuzz[96648:2614997] (debug)Marker.showInfoWindow
+2015-07-14 21:15:14.907 smartBuzz[1442:2633572] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:15:14.908 smartBuzz[1442:2633572] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:15:14.911 smartBuzz[1442:2633572] Unlimited access to network resources
+2015-07-14 21:15:14.915 smartBuzz[1442:2633572] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:15:15.001 smartBuzz[1442:2633572] [CDVTimer][localnotification] 0.059009ms
+2015-07-14 21:15:15.001 smartBuzz[1442:2633572] [CDVTimer][localnotification] 0.006974ms
+2015-07-14 21:15:15.001 smartBuzz[1442:2633572] [CDVTimer][TotalPluginStartup] 0.361979ms
+2015-07-14 21:15:15.025 smartBuzz[1442:2633572] active
+2015-07-14 21:15:15.085 smartBuzz[1442:2633572] Resetting plugins due to page load.
+2015-07-14 21:15:15.344 smartBuzz[1442:2633572] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/867CF104-76EA-41D7-9A9A-D3B947B57B00/smartBuzz.app/www/index.html
+2015-07-14 21:15:15.420 smartBuzz[1442:2633572] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:15:15.499 smartBuzz[1442:2633572] THREAD WARNING: ['GoogleMaps'] took '76.290039' ms. Plugin should use a background thread.
+2015-07-14 21:15:16.202 smartBuzz[1442:2633572] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:15:16.202 smartBuzz[1442:2633572] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:15:16.525 smartBuzz[1442:2633708] (debug)Map.moveCamera
+2015-07-14 21:15:16.525 smartBuzz[1442:2633663] (debug)Map.setOptions
+2015-07-14 21:15:16.549 smartBuzz[1442:2633572] THREAD WARNING: ['GoogleMaps'] took '10.179932' ms. Plugin should use a background thread.
+2015-07-14 21:15:18.094 smartBuzz[1442:2633802] (debug)Marker.createMarker
+2015-07-14 21:15:18.099 smartBuzz[1442:2633802] (debug)Map.animateCamera
+2015-07-14 21:15:18.918 smartBuzz[1442:2633662] (debug)Marker.createMarker
+2015-07-14 21:15:18.921 smartBuzz[1442:2633662] (debug)Map.animateCamera
+2015-07-14 21:15:18.923 smartBuzz[1442:2633662] (debug)Marker.showInfoWindow
+2015-07-14 21:15:23.110 smartBuzz[1442:2633661] (debug)Marker.showInfoWindow
+2015-07-14 21:16:14.284 smartBuzz[1442:2637672] (debug)Marker.createMarker
+2015-07-14 21:16:14.293 smartBuzz[1442:2637672] (debug)Marker.showInfoWindow
+2015-07-14 21:16:14.517 smartBuzz[1442:2633572] Resetting plugins due to page load.
+2015-07-14 21:16:15.311 smartBuzz[1442:2633572] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/867CF104-76EA-41D7-9A9A-D3B947B57B00/smartBuzz.app/www/bus.html
+2015-07-14 21:16:35.658 smartBuzz[1442:2633572] Resetting plugins due to page load.
+2015-07-14 21:16:35.747 smartBuzz[1442:2633572] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/867CF104-76EA-41D7-9A9A-D3B947B57B00/smartBuzz.app/www/index.html
+2015-07-14 21:16:35.816 smartBuzz[1442:2633572] THREAD WARNING: ['GoogleMaps'] took '26.207275' ms. Plugin should use a background thread.
+2015-07-14 21:16:36.794 smartBuzz[1442:2641272] (debug)Map.setOptions
+2015-07-14 21:16:36.794 smartBuzz[1442:2641263] (debug)Map.moveCamera
+2015-07-14 21:16:36.819 smartBuzz[1442:2633572] THREAD WARNING: ['GoogleMaps'] took '11.724854' ms. Plugin should use a background thread.
+2015-07-14 21:16:38.618 smartBuzz[1442:2641272] (debug)Marker.createMarker
+2015-07-14 21:16:38.622 smartBuzz[1442:2641272] (debug)Map.animateCamera
+2015-07-14 21:16:39.781 smartBuzz[1442:2641272] (debug)Marker.createMarker
+2015-07-14 21:16:39.785 smartBuzz[1442:2641272] (debug)Map.animateCamera
+2015-07-14 21:16:39.787 smartBuzz[1442:2641272] (debug)Marker.showInfoWindow
+2015-07-14 21:16:43.624 smartBuzz[1442:2641479] (debug)Marker.showInfoWindow
+2015-07-14 21:19:07.211 smartBuzz[1442:2652859] Terminating since there is no system app.
+2015-07-14 21:44:11.967 smartBuzz[6133:2761202] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:44:11.968 smartBuzz[6133:2761202] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:44:11.993 smartBuzz[6133:2761202] Unlimited access to network resources
+2015-07-14 21:44:11.998 smartBuzz[6133:2761202] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:44:12.329 smartBuzz[6133:2761202] [CDVTimer][localnotification] 0.702977ms
+2015-07-14 21:44:12.329 smartBuzz[6133:2761202] [CDVTimer][localnotification] 0.009000ms
+2015-07-14 21:44:12.329 smartBuzz[6133:2761202] [CDVTimer][TotalPluginStartup] 1.031995ms
+2015-07-14 21:44:12.359 smartBuzz[6133:2761202] active
+2015-07-14 21:44:12.470 smartBuzz[6133:2761202] Resetting plugins due to page load.
+2015-07-14 21:44:12.821 smartBuzz[6133:2761202] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/8E57172E-F5EB-43E8-803B-E106C6DA4F13/smartBuzz.app/www/index.html
+2015-07-14 21:44:12.863 smartBuzz[6133:2761202] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:44:13.032 smartBuzz[6133:2761202] THREAD WARNING: ['GoogleMaps'] took '134.936035' ms. Plugin should use a background thread.
+2015-07-14 21:44:13.545 smartBuzz[6133:2761202] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:44:13.546 smartBuzz[6133:2761202] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:44:13.943 smartBuzz[6133:2761228] (debug)Map.moveCamera
+2015-07-14 21:44:13.943 smartBuzz[6133:2761210] (debug)Map.setOptions
+2015-07-14 21:44:13.972 smartBuzz[6133:2761202] THREAD WARNING: ['GoogleMaps'] took '18.498047' ms. Plugin should use a background thread.
+2015-07-14 21:44:15.902 smartBuzz[6133:2761214] (debug)Marker.createMarker
+2015-07-14 21:44:15.909 smartBuzz[6133:2761214] (debug)Map.animateCamera
+2015-07-14 21:44:16.746 smartBuzz[6133:2761214] (debug)Marker.createMarker
+2015-07-14 21:44:16.750 smartBuzz[6133:2761214] (debug)Map.animateCamera
+2015-07-14 21:44:16.787 smartBuzz[6133:2761214] (debug)Marker.showInfoWindow
+2015-07-14 21:44:20.956 smartBuzz[6133:2761228] (debug)Marker.showInfoWindow
+2015-07-14 21:44:24.376 smartBuzz[6133:2761202] Resetting plugins due to page load.
+2015-07-14 21:44:25.205 smartBuzz[6133:2761202] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/8E57172E-F5EB-43E8-803B-E106C6DA4F13/smartBuzz.app/www/manageCalendar.html
+2015-07-14 21:44:34.954 smartBuzz[6133:2761202] active
+2015-07-14 21:44:36.213 smartBuzz[6133:2761202] active
+2015-07-14 21:56:37.189 smartBuzz[10734:2810545] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 21:56:37.189 smartBuzz[10734:2810545] Multi-tasking -> Device: YES, App: YES
+2015-07-14 21:56:37.191 smartBuzz[10734:2810545] Unlimited access to network resources
+2015-07-14 21:56:37.194 smartBuzz[10734:2810545] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 21:56:37.275 smartBuzz[10734:2810545] [CDVTimer][localnotification] 0.060976ms
+2015-07-14 21:56:37.275 smartBuzz[10734:2810545] [CDVTimer][localnotification] 0.032961ms
+2015-07-14 21:56:37.275 smartBuzz[10734:2810545] [CDVTimer][TotalPluginStartup] 0.411987ms
+2015-07-14 21:56:37.296 smartBuzz[10734:2810545] active
+2015-07-14 21:56:37.383 smartBuzz[10734:2810545] Resetting plugins due to page load.
+2015-07-14 21:56:37.595 smartBuzz[10734:2810545] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/0E49FFDB-A7ED-46C0-B780-1A4E58A740C3/smartBuzz.app/www/index.html
+2015-07-14 21:56:37.670 smartBuzz[10734:2810545] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 21:56:37.751 smartBuzz[10734:2810545] THREAD WARNING: ['GoogleMaps'] took '76.861084' ms. Plugin should use a background thread.
+2015-07-14 21:56:38.439 smartBuzz[10734:2810545] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 21:56:38.439 smartBuzz[10734:2810545] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 21:56:38.689 smartBuzz[10734:2810551] (debug)Map.moveCamera
+2015-07-14 21:56:38.689 smartBuzz[10734:2810560] (debug)Map.setOptions
+2015-07-14 21:56:38.709 smartBuzz[10734:2810545] THREAD WARNING: ['GoogleMaps'] took '10.091064' ms. Plugin should use a background thread.
+2015-07-14 21:56:41.377 smartBuzz[10734:2810560] (debug)Marker.createMarker
+2015-07-14 21:56:41.384 smartBuzz[10734:2810560] (debug)Map.animateCamera
+2015-07-14 21:56:42.200 smartBuzz[10734:2810555] (debug)Marker.createMarker
+2015-07-14 21:56:42.203 smartBuzz[10734:2810555] (debug)Map.animateCamera
+2015-07-14 21:56:42.203 smartBuzz[10734:2810555] (debug)Marker.showInfoWindow
+2015-07-14 21:56:45.871 smartBuzz[10734:2810545] Resetting plugins due to page load.
+2015-07-14 21:56:46.316 smartBuzz[10734:2810545] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/0E49FFDB-A7ED-46C0-B780-1A4E58A740C3/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:02:32.040 smartBuzz[15330:2847222] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:02:32.040 smartBuzz[15330:2847222] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:02:32.042 smartBuzz[15330:2847222] Unlimited access to network resources
+2015-07-14 22:02:32.045 smartBuzz[15330:2847222] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:02:32.119 smartBuzz[15330:2847222] [CDVTimer][localnotification] 0.061989ms
+2015-07-14 22:02:32.119 smartBuzz[15330:2847222] [CDVTimer][localnotification] 0.006974ms
+2015-07-14 22:02:32.119 smartBuzz[15330:2847222] [CDVTimer][TotalPluginStartup] 0.344038ms
+2015-07-14 22:02:32.147 smartBuzz[15330:2847222] active
+2015-07-14 22:02:32.205 smartBuzz[15330:2847222] Resetting plugins due to page load.
+2015-07-14 22:02:32.442 smartBuzz[15330:2847222] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/A725F6D9-E743-4FC9-A5EF-E20617674A9A/smartBuzz.app/www/index.html
+2015-07-14 22:02:32.489 smartBuzz[15330:2847222] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:02:32.605 smartBuzz[15330:2847222] THREAD WARNING: ['GoogleMaps'] took '80.730957' ms. Plugin should use a background thread.
+2015-07-14 22:02:32.733 smartBuzz[15330:2847222] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:02:32.733 smartBuzz[15330:2847222] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:02:33.578 smartBuzz[15330:2847338] (debug)Map.moveCamera
+2015-07-14 22:02:33.578 smartBuzz[15330:2847346] (debug)Map.setOptions
+2015-07-14 22:02:35.957 smartBuzz[15330:2847344] (debug)Marker.createMarker
+2015-07-14 22:02:35.964 smartBuzz[15330:2847344] (debug)Map.animateCamera
+2015-07-14 22:02:37.037 smartBuzz[15330:2847344] (debug)Marker.createMarker
+2015-07-14 22:02:37.040 smartBuzz[15330:2847344] (debug)Map.animateCamera
+2015-07-14 22:02:37.041 smartBuzz[15330:2847344] (debug)Marker.showInfoWindow
+2015-07-14 22:02:39.535 smartBuzz[15330:2847222] Resetting plugins due to page load.
+2015-07-14 22:02:39.949 smartBuzz[15330:2847222] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/A725F6D9-E743-4FC9-A5EF-E20617674A9A/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:04:08.982 smartBuzz[19904:2859674] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:04:08.984 smartBuzz[19904:2859674] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:04:08.987 smartBuzz[19904:2859674] Unlimited access to network resources
+2015-07-14 22:04:08.989 smartBuzz[19904:2859674] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:04:09.102 smartBuzz[19904:2859674] [CDVTimer][localnotification] 0.092983ms
+2015-07-14 22:04:09.102 smartBuzz[19904:2859674] [CDVTimer][localnotification] 0.009000ms
+2015-07-14 22:04:09.102 smartBuzz[19904:2859674] [CDVTimer][TotalPluginStartup] 0.572979ms
+2015-07-14 22:04:09.119 smartBuzz[19904:2859674] active
+2015-07-14 22:04:09.186 smartBuzz[19904:2859674] Resetting plugins due to page load.
+2015-07-14 22:04:09.456 smartBuzz[19904:2859674] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/25283D0B-529A-4B19-8CB3-83B1D58D1B29/smartBuzz.app/www/index.html
+2015-07-14 22:04:09.504 smartBuzz[19904:2859674] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:04:09.606 smartBuzz[19904:2859674] THREAD WARNING: ['GoogleMaps'] took '65.849854' ms. Plugin should use a background thread.
+2015-07-14 22:04:09.673 smartBuzz[19904:2859674] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:04:09.674 smartBuzz[19904:2859674] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:04:10.549 smartBuzz[19904:2859689] (debug)Map.moveCamera
+2015-07-14 22:04:10.549 smartBuzz[19904:2859688] (debug)Map.setOptions
+2015-07-14 22:04:13.167 smartBuzz[19904:2859688] (debug)Marker.createMarker
+2015-07-14 22:04:13.173 smartBuzz[19904:2859688] (debug)Map.animateCamera
+2015-07-14 22:04:14.108 smartBuzz[19904:2859684] (debug)Marker.createMarker
+2015-07-14 22:04:14.155 smartBuzz[19904:2859684] (debug)Map.animateCamera
+2015-07-14 22:04:14.156 smartBuzz[19904:2859684] (debug)Marker.showInfoWindow
+2015-07-14 22:04:16.808 smartBuzz[19904:2859674] Resetting plugins due to page load.
+2015-07-14 22:04:17.245 smartBuzz[19904:2859674] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/25283D0B-529A-4B19-8CB3-83B1D58D1B29/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:05:00.698 smartBuzz[24478:2865298] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:05:00.699 smartBuzz[24478:2865298] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:05:00.700 smartBuzz[24478:2865298] Unlimited access to network resources
+2015-07-14 22:05:00.702 smartBuzz[24478:2865298] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:05:00.771 smartBuzz[24478:2865298] [CDVTimer][localnotification] 0.055015ms
+2015-07-14 22:05:00.771 smartBuzz[24478:2865298] [CDVTimer][localnotification] 0.007987ms
+2015-07-14 22:05:00.771 smartBuzz[24478:2865298] [CDVTimer][TotalPluginStartup] 0.325978ms
+2015-07-14 22:05:00.791 smartBuzz[24478:2865298] active
+2015-07-14 22:05:00.842 smartBuzz[24478:2865298] Resetting plugins due to page load.
+2015-07-14 22:05:01.060 smartBuzz[24478:2865298] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/E4F80611-C27C-4AC1-AB2C-78542E8D3D60/smartBuzz.app/www/index.html
+2015-07-14 22:05:01.145 smartBuzz[24478:2865298] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:05:01.211 smartBuzz[24478:2865298] THREAD WARNING: ['GoogleMaps'] took '62.320312' ms. Plugin should use a background thread.
+2015-07-14 22:05:01.714 smartBuzz[24478:2865298] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:05:01.715 smartBuzz[24478:2865298] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:05:02.154 smartBuzz[24478:2865324] (debug)Map.setOptions
+2015-07-14 22:05:02.154 smartBuzz[24478:2865340] (debug)Map.moveCamera
+2015-07-14 22:05:04.894 smartBuzz[24478:2865319] (debug)Marker.createMarker
+2015-07-14 22:05:04.901 smartBuzz[24478:2865319] (debug)Map.animateCamera
+2015-07-14 22:05:05.773 smartBuzz[24478:2865319] (debug)Marker.createMarker
+2015-07-14 22:05:05.776 smartBuzz[24478:2865319] (debug)Map.animateCamera
+2015-07-14 22:05:05.778 smartBuzz[24478:2865319] (debug)Marker.showInfoWindow
+2015-07-14 22:05:08.418 smartBuzz[24478:2865298] Resetting plugins due to page load.
+2015-07-14 22:05:08.871 smartBuzz[24478:2865298] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/E4F80611-C27C-4AC1-AB2C-78542E8D3D60/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:06:00.585 smartBuzz[29049:2875125] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:06:00.586 smartBuzz[29049:2875125] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:06:00.588 smartBuzz[29049:2875125] Unlimited access to network resources
+2015-07-14 22:06:00.590 smartBuzz[29049:2875125] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:06:00.660 smartBuzz[29049:2875125] [CDVTimer][localnotification] 0.060976ms
+2015-07-14 22:06:00.660 smartBuzz[29049:2875125] [CDVTimer][localnotification] 0.006020ms
+2015-07-14 22:06:00.660 smartBuzz[29049:2875125] [CDVTimer][TotalPluginStartup] 0.371993ms
+2015-07-14 22:06:00.683 smartBuzz[29049:2875125] active
+2015-07-14 22:06:00.736 smartBuzz[29049:2875125] Resetting plugins due to page load.
+2015-07-14 22:06:00.954 smartBuzz[29049:2875125] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/14CA2078-73A1-4C27-94B5-88086EC26331/smartBuzz.app/www/index.html
+2015-07-14 22:06:01.002 smartBuzz[29049:2875125] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:06:01.125 smartBuzz[29049:2875125] THREAD WARNING: ['GoogleMaps'] took '72.421143' ms. Plugin should use a background thread.
+2015-07-14 22:06:01.589 smartBuzz[29049:2875125] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:06:01.589 smartBuzz[29049:2875125] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:06:02.102 smartBuzz[29049:2875166] (debug)Map.moveCamera
+2015-07-14 22:06:02.102 smartBuzz[29049:2875161] (debug)Map.setOptions
+2015-07-14 22:06:02.113 smartBuzz[29049:2875125] THREAD WARNING: ['GoogleMaps'] took '11.073242' ms. Plugin should use a background thread.
+2015-07-14 22:06:03.859 smartBuzz[29049:2875163] (debug)Marker.createMarker
+2015-07-14 22:06:03.864 smartBuzz[29049:2875163] (debug)Map.animateCamera
+2015-07-14 22:06:04.703 smartBuzz[29049:2875163] (debug)Marker.createMarker
+2015-07-14 22:06:04.708 smartBuzz[29049:2875163] (debug)Map.animateCamera
+2015-07-14 22:06:04.749 smartBuzz[29049:2875163] (debug)Marker.showInfoWindow
+2015-07-14 22:06:06.500 smartBuzz[29049:2875125] Resetting plugins due to page load.
+2015-07-14 22:06:07.022 smartBuzz[29049:2875125] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/14CA2078-73A1-4C27-94B5-88086EC26331/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:09:51.685 smartBuzz[33631:2899721] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:09:51.686 smartBuzz[33631:2899721] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:09:51.688 smartBuzz[33631:2899721] Unlimited access to network resources
+2015-07-14 22:09:51.691 smartBuzz[33631:2899721] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:09:51.764 smartBuzz[33631:2899721] [CDVTimer][localnotification] 0.055015ms
+2015-07-14 22:09:51.764 smartBuzz[33631:2899721] [CDVTimer][localnotification] 0.005007ms
+2015-07-14 22:09:51.764 smartBuzz[33631:2899721] [CDVTimer][TotalPluginStartup] 0.315964ms
+2015-07-14 22:09:51.785 smartBuzz[33631:2899721] active
+2015-07-14 22:09:51.842 smartBuzz[33631:2899721] Resetting plugins due to page load.
+2015-07-14 22:09:52.067 smartBuzz[33631:2899721] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F759A9C7-678D-4DA7-87F7-0FFB5B091E3D/smartBuzz.app/www/index.html
+2015-07-14 22:09:52.147 smartBuzz[33631:2899721] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:09:52.230 smartBuzz[33631:2899721] THREAD WARNING: ['GoogleMaps'] took '78.413818' ms. Plugin should use a background thread.
+2015-07-14 22:09:52.851 smartBuzz[33631:2899721] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:09:52.851 smartBuzz[33631:2899721] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:09:53.201 smartBuzz[33631:2899748] (debug)Map.moveCamera
+2015-07-14 22:09:53.201 smartBuzz[33631:2899729] (debug)Map.setOptions
+2015-07-14 22:09:56.240 smartBuzz[33631:2899735] (debug)Marker.createMarker
+2015-07-14 22:09:56.245 smartBuzz[33631:2899735] (debug)Map.animateCamera
+2015-07-14 22:09:57.060 smartBuzz[33631:2899735] (debug)Marker.createMarker
+2015-07-14 22:09:57.063 smartBuzz[33631:2899735] (debug)Map.animateCamera
+2015-07-14 22:09:57.064 smartBuzz[33631:2899735] (debug)Marker.showInfoWindow
+2015-07-14 22:10:01.278 smartBuzz[33631:2899728] (debug)Marker.showInfoWindow
+2015-07-14 22:10:03.195 smartBuzz[33631:2899721] Resetting plugins due to page load.
+2015-07-14 22:10:03.474 smartBuzz[33631:2899721] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F759A9C7-678D-4DA7-87F7-0FFB5B091E3D/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:13:07.484 smartBuzz[38213:2925035] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:13:07.485 smartBuzz[38213:2925035] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:13:07.488 smartBuzz[38213:2925035] Unlimited access to network resources
+2015-07-14 22:13:07.490 smartBuzz[38213:2925035] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:13:07.565 smartBuzz[38213:2925035] [CDVTimer][localnotification] 0.055969ms
+2015-07-14 22:13:07.565 smartBuzz[38213:2925035] [CDVTimer][localnotification] 0.006020ms
+2015-07-14 22:13:07.565 smartBuzz[38213:2925035] [CDVTimer][TotalPluginStartup] 0.319004ms
+2015-07-14 22:13:07.587 smartBuzz[38213:2925035] active
+2015-07-14 22:13:07.637 smartBuzz[38213:2925035] Resetting plugins due to page load.
+2015-07-14 22:13:07.879 smartBuzz[38213:2925035] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/4808083E-184C-4A4D-AB4D-2F59DBFEEDAE/smartBuzz.app/www/index.html
+2015-07-14 22:13:07.987 smartBuzz[38213:2925035] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:13:08.073 smartBuzz[38213:2925035] THREAD WARNING: ['GoogleMaps'] took '82.754150' ms. Plugin should use a background thread.
+2015-07-14 22:13:08.620 smartBuzz[38213:2925035] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:13:08.620 smartBuzz[38213:2925035] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:13:09.019 smartBuzz[38213:2925142] (debug)Map.moveCamera
+2015-07-14 22:13:09.020 smartBuzz[38213:2925140] (debug)Map.setOptions
+2015-07-14 22:13:10.878 smartBuzz[38213:2925285] (debug)Marker.createMarker
+2015-07-14 22:13:10.885 smartBuzz[38213:2925285] (debug)Map.animateCamera
+2015-07-14 22:13:12.288 smartBuzz[38213:2925142] (debug)Marker.createMarker
+2015-07-14 22:13:12.290 smartBuzz[38213:2925142] (debug)Map.animateCamera
+2015-07-14 22:13:12.292 smartBuzz[38213:2925142] (debug)Marker.showInfoWindow
+2015-07-14 22:13:13.667 smartBuzz[38213:2925035] Resetting plugins due to page load.
+2015-07-14 22:13:14.235 smartBuzz[38213:2925035] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/4808083E-184C-4A4D-AB4D-2F59DBFEEDAE/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:17:58.596 smartBuzz[42794:2944436] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:17:58.597 smartBuzz[42794:2944436] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:17:58.599 smartBuzz[42794:2944436] Unlimited access to network resources
+2015-07-14 22:17:58.601 smartBuzz[42794:2944436] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:17:58.673 smartBuzz[42794:2944436] [CDVTimer][localnotification] 0.066996ms
+2015-07-14 22:17:58.673 smartBuzz[42794:2944436] [CDVTimer][localnotification] 0.005960ms
+2015-07-14 22:17:58.673 smartBuzz[42794:2944436] [CDVTimer][TotalPluginStartup] 0.369012ms
+2015-07-14 22:17:58.705 smartBuzz[42794:2944436] active
+2015-07-14 22:17:58.742 smartBuzz[42794:2944436] Resetting plugins due to page load.
+2015-07-14 22:17:58.971 smartBuzz[42794:2944436] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F203DE9B-3F1A-4C49-83DB-1135CA407F50/smartBuzz.app/www/index.html
+2015-07-14 22:17:59.053 smartBuzz[42794:2944436] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:17:59.130 smartBuzz[42794:2944436] THREAD WARNING: ['GoogleMaps'] took '73.400146' ms. Plugin should use a background thread.
+2015-07-14 22:17:59.634 smartBuzz[42794:2944436] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:17:59.635 smartBuzz[42794:2944436] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:18:00.096 smartBuzz[42794:2944436] THREAD WARNING: ['GoogleMaps'] took '10.005859' ms. Plugin should use a background thread.
+2015-07-14 22:20:16.774 smartBuzz[42794:2944436] Resetting plugins due to page load.
+2015-07-14 22:20:17.059 smartBuzz[42794:2944436] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/F203DE9B-3F1A-4C49-83DB-1135CA407F50/smartBuzz.app/www/manageCalendar.html
+2015-07-14 22:22:56.239 smartBuzz[47376:2974731] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 22:22:56.240 smartBuzz[47376:2974731] Multi-tasking -> Device: YES, App: YES
+2015-07-14 22:22:56.242 smartBuzz[47376:2974731] Unlimited access to network resources
+2015-07-14 22:22:56.244 smartBuzz[47376:2974731] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 22:22:56.310 smartBuzz[47376:2974731] [CDVTimer][localnotification] 0.054955ms
+2015-07-14 22:22:56.310 smartBuzz[47376:2974731] [CDVTimer][localnotification] 0.005960ms
+2015-07-14 22:22:56.310 smartBuzz[47376:2974731] [CDVTimer][TotalPluginStartup] 0.349998ms
+2015-07-14 22:22:56.333 smartBuzz[47376:2974731] active
+2015-07-14 22:22:56.383 smartBuzz[47376:2974731] Resetting plugins due to page load.
+2015-07-14 22:22:56.611 smartBuzz[47376:2974731] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B5ACCC63-9382-4FF8-8FD3-5D8B705CF993/smartBuzz.app/www/index.html
+2015-07-14 22:22:56.686 smartBuzz[47376:2974731] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-14 22:22:56.763 smartBuzz[47376:2974731] THREAD WARNING: ['GoogleMaps'] took '73.262939' ms. Plugin should use a background thread.
+2015-07-14 22:22:57.253 smartBuzz[47376:2974731] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-14 22:22:57.253 smartBuzz[47376:2974731] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-14 22:23:04.454 smartBuzz[47376:2974731] Resetting plugins due to page load.
+2015-07-14 22:23:04.939 smartBuzz[47376:2974731] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B5ACCC63-9382-4FF8-8FD3-5D8B705CF993/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:20:42.733 smartBuzz[52175:3463216] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:20:42.733 smartBuzz[52175:3463216] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:20:42.735 smartBuzz[52175:3463216] Unlimited access to network resources
+2015-07-15 00:20:42.738 smartBuzz[52175:3463216] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:20:42.809 smartBuzz[52175:3463216] [CDVTimer][localnotification] 0.059962ms
+2015-07-15 00:20:42.809 smartBuzz[52175:3463216] [CDVTimer][localnotification] 0.006020ms
+2015-07-15 00:20:42.810 smartBuzz[52175:3463216] [CDVTimer][TotalPluginStartup] 0.375986ms
+2015-07-15 00:20:42.824 smartBuzz[52175:3463216] active
+2015-07-15 00:20:42.902 smartBuzz[52175:3463216] Resetting plugins due to page load.
+2015-07-15 00:20:43.136 smartBuzz[52175:3463216] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/731B6F60-4A28-45DF-B10D-F27CD2712DEF/smartBuzz.app/www/index.html
+2015-07-15 00:20:43.211 smartBuzz[52175:3463216] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:20:43.299 smartBuzz[52175:3463216] THREAD WARNING: ['GoogleMaps'] took '83.538818' ms. Plugin should use a background thread.
+2015-07-15 00:20:43.976 smartBuzz[52175:3463216] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:20:43.976 smartBuzz[52175:3463216] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:20:44.242 smartBuzz[52175:3463216] THREAD WARNING: ['GoogleMaps'] took '10.205078' ms. Plugin should use a background thread.
+2015-07-15 00:20:48.657 smartBuzz[52175:3463216] Resetting plugins due to page load.
+2015-07-15 00:20:49.198 smartBuzz[52175:3463216] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/731B6F60-4A28-45DF-B10D-F27CD2712DEF/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:22:22.754 smartBuzz[56779:3477007] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:22:22.756 smartBuzz[56779:3477007] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:22:22.758 smartBuzz[56779:3477007] Unlimited access to network resources
+2015-07-15 00:22:22.761 smartBuzz[56779:3477007] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:22:22.828 smartBuzz[56779:3477007] [CDVTimer][localnotification] 0.054955ms
+2015-07-15 00:22:22.828 smartBuzz[56779:3477007] [CDVTimer][localnotification] 0.006020ms
+2015-07-15 00:22:22.828 smartBuzz[56779:3477007] [CDVTimer][TotalPluginStartup] 0.384986ms
+2015-07-15 00:22:22.852 smartBuzz[56779:3477007] active
+2015-07-15 00:22:22.906 smartBuzz[56779:3477007] Resetting plugins due to page load.
+2015-07-15 00:22:23.172 smartBuzz[56779:3477007] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DAF9113F-621D-487C-9D7E-D793E5CD4054/smartBuzz.app/www/index.html
+2015-07-15 00:22:23.223 smartBuzz[56779:3477007] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:22:23.350 smartBuzz[56779:3477007] THREAD WARNING: ['GoogleMaps'] took '81.575928' ms. Plugin should use a background thread.
+2015-07-15 00:22:23.507 smartBuzz[56779:3477007] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:22:23.507 smartBuzz[56779:3477007] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:22:29.218 smartBuzz[56779:3477007] Resetting plugins due to page load.
+2015-07-15 00:22:29.648 smartBuzz[56779:3477007] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DAF9113F-621D-487C-9D7E-D793E5CD4054/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:28:52.878 smartBuzz[61394:3526230] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:28:52.880 smartBuzz[61394:3526230] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:28:52.881 smartBuzz[61394:3526230] Unlimited access to network resources
+2015-07-15 00:28:52.884 smartBuzz[61394:3526230] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:28:52.952 smartBuzz[61394:3526230] [CDVTimer][localnotification] 0.054955ms
+2015-07-15 00:28:52.953 smartBuzz[61394:3526230] [CDVTimer][localnotification] 0.006974ms
+2015-07-15 00:28:52.953 smartBuzz[61394:3526230] [CDVTimer][TotalPluginStartup] 0.317991ms
+2015-07-15 00:28:52.976 smartBuzz[61394:3526230] active
+2015-07-15 00:28:53.030 smartBuzz[61394:3526230] Resetting plugins due to page load.
+2015-07-15 00:28:53.254 smartBuzz[61394:3526230] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/192E050A-FFD4-40E6-821C-2430EA4B71F5/smartBuzz.app/www/index.html
+2015-07-15 00:28:53.305 smartBuzz[61394:3526230] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:28:53.456 smartBuzz[61394:3526230] THREAD WARNING: ['GoogleMaps'] took '83.647217' ms. Plugin should use a background thread.
+2015-07-15 00:28:53.513 smartBuzz[61394:3526230] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:28:53.513 smartBuzz[61394:3526230] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:28:54.391 smartBuzz[61394:3526230] THREAD WARNING: ['GoogleMaps'] took '10.968018' ms. Plugin should use a background thread.
+2015-07-15 00:29:00.970 smartBuzz[61394:3526230] Resetting plugins due to page load.
+2015-07-15 00:29:01.710 smartBuzz[61394:3526230] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/192E050A-FFD4-40E6-821C-2430EA4B71F5/smartBuzz.app/www/bus.html
+2015-07-15 00:29:07.935 smartBuzz[61394:3526230] Resetting plugins due to page load.
+2015-07-15 00:29:08.040 smartBuzz[61394:3526230] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/192E050A-FFD4-40E6-821C-2430EA4B71F5/smartBuzz.app/www/index.html
+2015-07-15 00:29:08.097 smartBuzz[61394:3526230] THREAD WARNING: ['GoogleMaps'] took '26.954102' ms. Plugin should use a background thread.
+2015-07-15 00:29:13.883 smartBuzz[61394:3526230] Resetting plugins due to page load.
+2015-07-15 00:29:14.807 smartBuzz[61394:3526230] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/192E050A-FFD4-40E6-821C-2430EA4B71F5/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:30:57.833 smartBuzz[65967:3537267] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:30:57.834 smartBuzz[65967:3537267] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:30:57.836 smartBuzz[65967:3537267] Unlimited access to network resources
+2015-07-15 00:30:57.838 smartBuzz[65967:3537267] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:30:57.909 smartBuzz[65967:3537267] [CDVTimer][localnotification] 0.055015ms
+2015-07-15 00:30:57.909 smartBuzz[65967:3537267] [CDVTimer][localnotification] 0.005007ms
+2015-07-15 00:30:57.910 smartBuzz[65967:3537267] [CDVTimer][TotalPluginStartup] 0.311971ms
+2015-07-15 00:30:57.927 smartBuzz[65967:3537267] active
+2015-07-15 00:30:57.988 smartBuzz[65967:3537267] Resetting plugins due to page load.
+2015-07-15 00:30:58.223 smartBuzz[65967:3537267] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FCBDB5EC-D24F-4711-BF21-465887AA1500/smartBuzz.app/www/index.html
+2015-07-15 00:30:58.267 smartBuzz[65967:3537267] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:30:58.402 smartBuzz[65967:3537267] THREAD WARNING: ['GoogleMaps'] took '73.260986' ms. Plugin should use a background thread.
+2015-07-15 00:30:58.465 smartBuzz[65967:3537267] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:30:58.465 smartBuzz[65967:3537267] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:31:03.442 smartBuzz[65967:3537267] Resetting plugins due to page load.
+2015-07-15 00:31:04.070 smartBuzz[65967:3537267] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FCBDB5EC-D24F-4711-BF21-465887AA1500/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:35:54.630 smartBuzz[70550:3572581] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:35:54.631 smartBuzz[70550:3572581] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:35:54.634 smartBuzz[70550:3572581] Unlimited access to network resources
+2015-07-15 00:35:54.636 smartBuzz[70550:3572581] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:35:54.708 smartBuzz[70550:3572581] [CDVTimer][localnotification] 0.054955ms
+2015-07-15 00:35:54.708 smartBuzz[70550:3572581] [CDVTimer][localnotification] 0.005960ms
+2015-07-15 00:35:54.708 smartBuzz[70550:3572581] [CDVTimer][TotalPluginStartup] 0.311017ms
+2015-07-15 00:35:54.731 smartBuzz[70550:3572581] active
+2015-07-15 00:35:54.785 smartBuzz[70550:3572581] Resetting plugins due to page load.
+2015-07-15 00:35:55.020 smartBuzz[70550:3572581] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/C91757BE-7626-4F0F-890B-B93B075C22D0/smartBuzz.app/www/index.html
+2015-07-15 00:35:55.069 smartBuzz[70550:3572581] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:35:55.189 smartBuzz[70550:3572581] THREAD WARNING: ['GoogleMaps'] took '78.339111' ms. Plugin should use a background thread.
+2015-07-15 00:35:55.196 smartBuzz[70550:3572581] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:35:55.196 smartBuzz[70550:3572581] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:36:01.224 smartBuzz[70550:3572581] Resetting plugins due to page load.
+2015-07-15 00:36:01.818 smartBuzz[70550:3572581] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/C91757BE-7626-4F0F-890B-B93B075C22D0/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:38:18.076 smartBuzz[75126:3590877] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:38:18.077 smartBuzz[75126:3590877] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:38:18.080 smartBuzz[75126:3590877] Unlimited access to network resources
+2015-07-15 00:38:18.082 smartBuzz[75126:3590877] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:38:18.149 smartBuzz[75126:3590877] [CDVTimer][localnotification] 0.068009ms
+2015-07-15 00:38:18.149 smartBuzz[75126:3590877] [CDVTimer][localnotification] 0.007987ms
+2015-07-15 00:38:18.149 smartBuzz[75126:3590877] [CDVTimer][TotalPluginStartup] 0.433028ms
+2015-07-15 00:38:18.172 smartBuzz[75126:3590877] active
+2015-07-15 00:38:18.227 smartBuzz[75126:3590877] Resetting plugins due to page load.
+2015-07-15 00:38:18.484 smartBuzz[75126:3590877] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B1D97351-B72A-4EEA-84BF-E97885976BE3/smartBuzz.app/www/index.html
+2015-07-15 00:38:18.541 smartBuzz[75126:3590877] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:38:18.657 smartBuzz[75126:3590877] THREAD WARNING: ['GoogleMaps'] took '77.634277' ms. Plugin should use a background thread.
+2015-07-15 00:38:18.663 smartBuzz[75126:3590877] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:38:18.663 smartBuzz[75126:3590877] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:38:19.603 smartBuzz[75126:3590877] THREAD WARNING: ['GoogleMaps'] took '12.873047' ms. Plugin should use a background thread.
+2015-07-15 00:39:11.914 smartBuzz[77414:3594450] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:39:11.915 smartBuzz[77414:3594450] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:39:11.917 smartBuzz[77414:3594450] Unlimited access to network resources
+2015-07-15 00:39:11.920 smartBuzz[77414:3594450] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:39:11.989 smartBuzz[77414:3594450] [CDVTimer][localnotification] 0.066996ms
+2015-07-15 00:39:11.989 smartBuzz[77414:3594450] [CDVTimer][localnotification] 0.005960ms
+2015-07-15 00:39:11.990 smartBuzz[77414:3594450] [CDVTimer][TotalPluginStartup] 0.373006ms
+2015-07-15 00:39:12.013 smartBuzz[77414:3594450] active
+2015-07-15 00:39:12.074 smartBuzz[77414:3594450] Resetting plugins due to page load.
+2015-07-15 00:39:12.299 smartBuzz[77414:3594450] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9761C80F-65EA-4B76-BDE6-F3656D5D45D6/smartBuzz.app/www/index.html
+2015-07-15 00:39:12.351 smartBuzz[77414:3594450] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:39:12.480 smartBuzz[77414:3594450] THREAD WARNING: ['GoogleMaps'] took '76.664795' ms. Plugin should use a background thread.
+2015-07-15 00:39:12.484 smartBuzz[77414:3594450] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:39:12.484 smartBuzz[77414:3594450] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:39:13.447 smartBuzz[77414:3594450] THREAD WARNING: ['GoogleMaps'] took '10.949951' ms. Plugin should use a background thread.
+2015-07-15 00:39:23.201 smartBuzz[77414:3594450] Resetting plugins due to page load.
+2015-07-15 00:39:27.625 smartBuzz[77414:3594450] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9761C80F-65EA-4B76-BDE6-F3656D5D45D6/smartBuzz.app/www/bus.html
+2015-07-15 00:39:42.764 smartBuzz[77414:3594450] Resetting plugins due to page load.
+2015-07-15 00:39:42.852 smartBuzz[77414:3594450] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9761C80F-65EA-4B76-BDE6-F3656D5D45D6/smartBuzz.app/www/index.html
+2015-07-15 00:39:42.920 smartBuzz[77414:3594450] THREAD WARNING: ['GoogleMaps'] took '25.481934' ms. Plugin should use a background thread.
+2015-07-15 00:39:43.915 smartBuzz[77414:3594450] THREAD WARNING: ['GoogleMaps'] took '11.050049' ms. Plugin should use a background thread.
+2015-07-15 00:39:47.890 smartBuzz[77414:3594450] Resetting plugins due to page load.
+2015-07-15 00:39:48.348 smartBuzz[77414:3594450] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9761C80F-65EA-4B76-BDE6-F3656D5D45D6/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:42:41.121 smartBuzz[81993:3615688] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:42:41.122 smartBuzz[81993:3615688] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:42:41.123 smartBuzz[81993:3615688] Unlimited access to network resources
+2015-07-15 00:42:41.125 smartBuzz[81993:3615688] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:42:41.193 smartBuzz[81993:3615688] [CDVTimer][localnotification] 0.056028ms
+2015-07-15 00:42:41.193 smartBuzz[81993:3615688] [CDVTimer][localnotification] 0.007987ms
+2015-07-15 00:42:41.193 smartBuzz[81993:3615688] [CDVTimer][TotalPluginStartup] 0.388980ms
+2015-07-15 00:42:41.232 smartBuzz[81993:3615688] active
+2015-07-15 00:42:41.277 smartBuzz[81993:3615688] Resetting plugins due to page load.
+2015-07-15 00:42:41.564 smartBuzz[81993:3615688] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/70B7375A-0C26-4C1C-8A47-494692DA6C29/smartBuzz.app/www/index.html
+2015-07-15 00:42:41.631 smartBuzz[81993:3615688] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:42:41.708 smartBuzz[81993:3615688] THREAD WARNING: ['GoogleMaps'] took '73.752930' ms. Plugin should use a background thread.
+2015-07-15 00:42:41.732 smartBuzz[81993:3615688] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:42:41.732 smartBuzz[81993:3615688] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:42:49.651 smartBuzz[81993:3615688] Resetting plugins due to page load.
+2015-07-15 00:42:50.161 smartBuzz[81993:3615688] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/70B7375A-0C26-4C1C-8A47-494692DA6C29/smartBuzz.app/www/manageCalendar.html
+2015-07-15 00:44:53.467 smartBuzz[86573:3633777] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:44:53.468 smartBuzz[86573:3633777] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:44:53.470 smartBuzz[86573:3633777] Unlimited access to network resources
+2015-07-15 00:44:53.473 smartBuzz[86573:3633777] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:44:53.554 smartBuzz[86573:3633777] [CDVTimer][localnotification] 0.055969ms
+2015-07-15 00:44:53.554 smartBuzz[86573:3633777] [CDVTimer][localnotification] 0.005007ms
+2015-07-15 00:44:53.554 smartBuzz[86573:3633777] [CDVTimer][TotalPluginStartup] 0.322044ms
+2015-07-15 00:44:53.578 smartBuzz[86573:3633777] active
+2015-07-15 00:44:53.628 smartBuzz[86573:3633777] Resetting plugins due to page load.
+2015-07-15 00:44:53.848 smartBuzz[86573:3633777] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B8A73D59-0E38-4598-81A4-1E562437CCBC/smartBuzz.app/www/index.html
+2015-07-15 00:44:53.904 smartBuzz[86573:3633777] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:44:54.041 smartBuzz[86573:3633777] THREAD WARNING: ['GoogleMaps'] took '85.207031' ms. Plugin should use a background thread.
+2015-07-15 00:44:54.048 smartBuzz[86573:3633777] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:44:54.048 smartBuzz[86573:3633777] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:44:55.024 smartBuzz[86573:3633777] THREAD WARNING: ['GoogleMaps'] took '12.711914' ms. Plugin should use a background thread.
+2015-07-15 00:45:01.597 smartBuzz[86573:3633777] Resetting plugins due to page load.
+2015-07-15 00:45:03.394 smartBuzz[86573:3633777] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/B8A73D59-0E38-4598-81A4-1E562437CCBC/smartBuzz.app/www/bus.html
+2015-07-15 00:51:22.291 smartBuzz[91147:3678933] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:51:22.292 smartBuzz[91147:3678933] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:51:22.293 smartBuzz[91147:3678933] Unlimited access to network resources
+2015-07-15 00:51:22.296 smartBuzz[91147:3678933] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:51:22.373 smartBuzz[91147:3678933] [CDVTimer][localnotification] 0.061989ms
+2015-07-15 00:51:22.374 smartBuzz[91147:3678933] [CDVTimer][localnotification] 0.006020ms
+2015-07-15 00:51:22.374 smartBuzz[91147:3678933] [CDVTimer][TotalPluginStartup] 0.383019ms
+2015-07-15 00:51:22.396 smartBuzz[91147:3678933] active
+2015-07-15 00:51:22.452 smartBuzz[91147:3678933] Resetting plugins due to page load.
+2015-07-15 00:51:22.683 smartBuzz[91147:3678933] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/47810C6A-40CE-493A-8270-ECADE7868A84/smartBuzz.app/www/index.html
+2015-07-15 00:51:22.758 smartBuzz[91147:3678933] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:51:22.841 smartBuzz[91147:3678933] THREAD WARNING: ['GoogleMaps'] took '79.354980' ms. Plugin should use a background thread.
+2015-07-15 00:51:22.862 smartBuzz[91147:3678933] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:51:22.862 smartBuzz[91147:3678933] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:51:23.814 smartBuzz[91147:3678933] THREAD WARNING: ['GoogleMaps'] took '10.668945' ms. Plugin should use a background thread.
+2015-07-15 00:51:31.551 smartBuzz[91147:3678933] Resetting plugins due to page load.
+2015-07-15 00:51:33.712 smartBuzz[91147:3678933] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/47810C6A-40CE-493A-8270-ECADE7868A84/smartBuzz.app/www/bus.html
+2015-07-15 00:52:45.400 smartBuzz[95718:3690173] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 00:52:45.401 smartBuzz[95718:3690173] Multi-tasking -> Device: YES, App: YES
+2015-07-15 00:52:45.403 smartBuzz[95718:3690173] Unlimited access to network resources
+2015-07-15 00:52:45.407 smartBuzz[95718:3690173] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 00:52:45.488 smartBuzz[95718:3690173] [CDVTimer][localnotification] 0.061035ms
+2015-07-15 00:52:45.488 smartBuzz[95718:3690173] [CDVTimer][localnotification] 0.009000ms
+2015-07-15 00:52:45.488 smartBuzz[95718:3690173] [CDVTimer][TotalPluginStartup] 0.414014ms
+2015-07-15 00:52:45.512 smartBuzz[95718:3690173] active
+2015-07-15 00:52:45.571 smartBuzz[95718:3690173] Resetting plugins due to page load.
+2015-07-15 00:52:45.817 smartBuzz[95718:3690173] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9688C709-4197-4D5B-897B-F8D85E0AE6B4/smartBuzz.app/www/index.html
+2015-07-15 00:52:45.873 smartBuzz[95718:3690173] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 00:52:46.010 smartBuzz[95718:3690173] THREAD WARNING: ['GoogleMaps'] took '85.894043' ms. Plugin should use a background thread.
+2015-07-15 00:52:46.016 smartBuzz[95718:3690173] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 00:52:46.016 smartBuzz[95718:3690173] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 00:52:47.047 smartBuzz[95718:3690173] THREAD WARNING: ['GoogleMaps'] took '11.695068' ms. Plugin should use a background thread.
+2015-07-15 00:52:56.025 smartBuzz[95718:3690173] Resetting plugins due to page load.
+2015-07-15 00:52:56.721 smartBuzz[95718:3690173] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/9688C709-4197-4D5B-897B-F8D85E0AE6B4/smartBuzz.app/www/bus.html
+2015-07-15 00:56:34.877 smartBuzz[95718:3704381] Communications error: <OS_xpc_error: <error: 0x4ae15f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x4ae183c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-15 01:13:49.718 smartBuzz[7583:3778288] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 01:13:49.719 smartBuzz[7583:3778288] Multi-tasking -> Device: YES, App: YES
+2015-07-15 01:13:49.721 smartBuzz[7583:3778288] Unlimited access to network resources
+2015-07-15 01:13:49.723 smartBuzz[7583:3778288] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 01:13:49.801 smartBuzz[7583:3778288] [CDVTimer][localnotification] 0.060976ms
+2015-07-15 01:13:49.801 smartBuzz[7583:3778288] [CDVTimer][localnotification] 0.007987ms
+2015-07-15 01:13:49.802 smartBuzz[7583:3778288] [CDVTimer][TotalPluginStartup] 0.348985ms
+2015-07-15 01:13:49.824 smartBuzz[7583:3778288] active
+2015-07-15 01:13:49.944 smartBuzz[7583:3778288] Resetting plugins due to page load.
+2015-07-15 01:13:50.181 smartBuzz[7583:3778288] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/581B7B63-7CAD-4238-A408-9826E7F2B092/smartBuzz.app/www/index.html
+2015-07-15 01:13:50.220 smartBuzz[7583:3778288] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 01:13:50.345 smartBuzz[7583:3778288] THREAD WARNING: ['GoogleMaps'] took '90.080078' ms. Plugin should use a background thread.
+2015-07-15 01:13:50.367 smartBuzz[7583:3778288] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 01:13:50.368 smartBuzz[7583:3778288] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 01:13:51.301 smartBuzz[7583:3778288] THREAD WARNING: ['GoogleMaps'] took '13.355957' ms. Plugin should use a background thread.
+2015-07-15 01:13:58.757 smartBuzz[7583:3778288] Resetting plugins due to page load.
+2015-07-15 01:14:05.191 smartBuzz[7583:3778288] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/581B7B63-7CAD-4238-A408-9826E7F2B092/smartBuzz.app/www/bus.html
+2015-07-15 01:15:34.044 smartBuzz[9884:3790016] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 01:15:34.044 smartBuzz[9884:3790016] Multi-tasking -> Device: YES, App: YES
+2015-07-15 01:15:34.046 smartBuzz[9884:3790016] Unlimited access to network resources
+2015-07-15 01:15:34.048 smartBuzz[9884:3790016] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 01:15:34.117 smartBuzz[9884:3790016] [CDVTimer][localnotification] 0.057042ms
+2015-07-15 01:15:34.117 smartBuzz[9884:3790016] [CDVTimer][localnotification] 0.006020ms
+2015-07-15 01:15:34.117 smartBuzz[9884:3790016] [CDVTimer][TotalPluginStartup] 0.321031ms
+2015-07-15 01:15:34.141 smartBuzz[9884:3790016] active
+2015-07-15 01:15:34.216 smartBuzz[9884:3790016] Resetting plugins due to page load.
+2015-07-15 01:15:34.459 smartBuzz[9884:3790016] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/061C1CE5-3A13-4AC9-B2A6-E6B462614197/smartBuzz.app/www/index.html
+2015-07-15 01:15:34.499 smartBuzz[9884:3790016] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 01:15:34.617 smartBuzz[9884:3790016] THREAD WARNING: ['GoogleMaps'] took '83.596924' ms. Plugin should use a background thread.
+2015-07-15 01:15:34.623 smartBuzz[9884:3790016] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 01:15:34.623 smartBuzz[9884:3790016] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 01:16:14.385 smartBuzz[14456:3797890] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 01:16:14.385 smartBuzz[14456:3797890] Multi-tasking -> Device: YES, App: YES
+2015-07-15 01:16:14.387 smartBuzz[14456:3797890] Unlimited access to network resources
+2015-07-15 01:16:14.390 smartBuzz[14456:3797890] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 01:16:14.474 smartBuzz[14456:3797890] [CDVTimer][localnotification] 0.059962ms
+2015-07-15 01:16:14.475 smartBuzz[14456:3797890] [CDVTimer][localnotification] 0.009000ms
+2015-07-15 01:16:14.475 smartBuzz[14456:3797890] [CDVTimer][TotalPluginStartup] 0.386000ms
+2015-07-15 01:16:14.497 smartBuzz[14456:3797890] active
+2015-07-15 01:16:14.554 smartBuzz[14456:3797890] Resetting plugins due to page load.
+2015-07-15 01:16:14.787 smartBuzz[14456:3797890] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/C100A35F-1756-459D-B0BA-CF331FD6A1DF/smartBuzz.app/www/index.html
+2015-07-15 01:16:14.833 smartBuzz[14456:3797890] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 01:16:14.959 smartBuzz[14456:3797890] THREAD WARNING: ['GoogleMaps'] took '73.222900' ms. Plugin should use a background thread.
+2015-07-15 01:16:14.965 smartBuzz[14456:3797890] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 01:16:14.966 smartBuzz[14456:3797890] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 01:16:15.998 smartBuzz[14456:3797890] THREAD WARNING: ['GoogleMaps'] took '10.230713' ms. Plugin should use a background thread.
+2015-07-15 01:18:27.777 smartBuzz[19037:3807817] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 01:18:27.778 smartBuzz[19037:3807817] Multi-tasking -> Device: YES, App: YES
+2015-07-15 01:18:27.779 smartBuzz[19037:3807817] Unlimited access to network resources
+2015-07-15 01:18:27.781 smartBuzz[19037:3807817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 01:18:27.850 smartBuzz[19037:3807817] [CDVTimer][localnotification] 0.057995ms
+2015-07-15 01:18:27.850 smartBuzz[19037:3807817] [CDVTimer][localnotification] 0.003994ms
+2015-07-15 01:18:27.850 smartBuzz[19037:3807817] [CDVTimer][TotalPluginStartup] 0.312984ms
+2015-07-15 01:18:27.874 smartBuzz[19037:3807817] active
+2015-07-15 01:18:27.936 smartBuzz[19037:3807817] Resetting plugins due to page load.
+2015-07-15 01:18:28.162 smartBuzz[19037:3807817] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DBBD03A8-4BD3-4E98-AE4F-04B6AB35EBF9/smartBuzz.app/www/index.html
+2015-07-15 01:18:28.236 smartBuzz[19037:3807817] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 01:18:28.316 smartBuzz[19037:3807817] THREAD WARNING: ['GoogleMaps'] took '75.529785' ms. Plugin should use a background thread.
+2015-07-15 01:18:28.337 smartBuzz[19037:3807817] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 01:18:28.337 smartBuzz[19037:3807817] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 01:18:29.375 smartBuzz[19037:3807817] THREAD WARNING: ['GoogleMaps'] took '10.034180' ms. Plugin should use a background thread.
+2015-07-15 01:18:37.860 smartBuzz[19037:3807817] Resetting plugins due to page load.
+2015-07-15 01:18:45.073 smartBuzz[19037:3807817] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DBBD03A8-4BD3-4E98-AE4F-04B6AB35EBF9/smartBuzz.app/www/bus.html
+2015-07-15 01:18:53.380 smartBuzz[19037:3807817] THREAD WARNING: ['External'] took '45.289062' ms. Plugin should use a background thread.
+2015-07-15 01:19:32.124 smartBuzz[19037:3807817] active
+2015-07-15 01:19:34.073 smartBuzz[19037:3807817] CDVWebViewDelegate: Unexpected didFinish while waiting for load start.
+2015-07-15 02:05:27.435 smartBuzz[25999:3871469] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 02:05:27.436 smartBuzz[25999:3871469] Multi-tasking -> Device: YES, App: YES
+2015-07-15 02:05:27.437 smartBuzz[25999:3871469] Unlimited access to network resources
+2015-07-15 02:05:27.440 smartBuzz[25999:3871469] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 02:05:27.509 smartBuzz[25999:3871469] [CDVTimer][localnotification] 0.057995ms
+2015-07-15 02:05:27.509 smartBuzz[25999:3871469] [CDVTimer][localnotification] 0.006974ms
+2015-07-15 02:05:27.509 smartBuzz[25999:3871469] [CDVTimer][TotalPluginStartup] 0.325024ms
+2015-07-15 02:05:27.533 smartBuzz[25999:3871469] active
+2015-07-15 02:05:27.595 smartBuzz[25999:3871469] Resetting plugins due to page load.
+2015-07-15 02:05:27.818 smartBuzz[25999:3871469] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/64B9DED5-AFBF-41B8-BB70-5CCC6248DCDA/smartBuzz.app/www/index.html
+2015-07-15 02:05:27.870 smartBuzz[25999:3871469] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 02:05:28.007 smartBuzz[25999:3871469] THREAD WARNING: ['GoogleMaps'] took '86.953857' ms. Plugin should use a background thread.
+2015-07-15 02:05:28.015 smartBuzz[25999:3871469] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 02:05:28.016 smartBuzz[25999:3871469] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 02:05:35.986 smartBuzz[25999:3871469] Resetting plugins due to page load.
+2015-07-15 02:05:36.473 smartBuzz[25999:3871469] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/64B9DED5-AFBF-41B8-BB70-5CCC6248DCDA/smartBuzz.app/www/manageCalendar.html
+2015-07-15 02:06:02.511 smartBuzz[25999:3871469] Resetting plugins due to page load.
+2015-07-15 02:06:02.591 smartBuzz[25999:3871469] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/64B9DED5-AFBF-41B8-BB70-5CCC6248DCDA/smartBuzz.app/www/index.html
+2015-07-15 02:07:06.655 smartBuzz[25999:3871469] Resetting plugins due to page load.
+2015-07-15 02:07:06.848 smartBuzz[25999:3871469] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/64B9DED5-AFBF-41B8-BB70-5CCC6248DCDA/smartBuzz.app/www/manageCalendar.html
+2015-07-15 02:21:56.464 smartBuzz[35192:3890694] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 02:21:56.465 smartBuzz[35192:3890694] Multi-tasking -> Device: YES, App: YES
+2015-07-15 02:21:56.467 smartBuzz[35192:3890694] Unlimited access to network resources
+2015-07-15 02:21:56.469 smartBuzz[35192:3890694] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 02:21:56.538 smartBuzz[35192:3890694] [CDVTimer][localnotification] 0.054002ms
+2015-07-15 02:21:56.538 smartBuzz[35192:3890694] [CDVTimer][localnotification] 0.005007ms
+2015-07-15 02:21:56.538 smartBuzz[35192:3890694] [CDVTimer][TotalPluginStartup] 0.312984ms
+2015-07-15 02:21:56.560 smartBuzz[35192:3890694] active
+2015-07-15 02:21:56.622 smartBuzz[35192:3890694] Resetting plugins due to page load.
+2015-07-15 02:21:56.865 smartBuzz[35192:3890694] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FE00874A-2480-4124-8B7C-932E247D4682/smartBuzz.app/www/index.html
+2015-07-15 02:21:56.923 smartBuzz[35192:3890694] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 02:21:57.060 smartBuzz[35192:3890694] THREAD WARNING: ['GoogleMaps'] took '91.185059' ms. Plugin should use a background thread.
+2015-07-15 02:21:57.065 smartBuzz[35192:3890694] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 02:21:57.066 smartBuzz[35192:3890694] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 02:21:58.048 smartBuzz[35192:3890694] THREAD WARNING: ['GoogleMaps'] took '11.648193' ms. Plugin should use a background thread.
+2015-07-15 02:21:58.061 smartBuzz[35192:3890694] THREAD WARNING: ['GoogleMaps'] took '10.731934' ms. Plugin should use a background thread.
+2015-07-15 02:22:06.963 smartBuzz[35192:3890694] Resetting plugins due to page load.
+2015-07-15 02:22:13.142 smartBuzz[35192:3890694] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FE00874A-2480-4124-8B7C-932E247D4682/smartBuzz.app/www/bus.html
+2015-07-15 02:23:54.563 smartBuzz[39772:3897454] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 02:23:54.563 smartBuzz[39772:3897454] Multi-tasking -> Device: YES, App: YES
+2015-07-15 02:23:54.565 smartBuzz[39772:3897454] Unlimited access to network resources
+2015-07-15 02:23:54.567 smartBuzz[39772:3897454] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 02:23:54.637 smartBuzz[39772:3897454] [CDVTimer][localnotification] 0.052989ms
+2015-07-15 02:23:54.637 smartBuzz[39772:3897454] [CDVTimer][localnotification] 0.007987ms
+2015-07-15 02:23:54.637 smartBuzz[39772:3897454] [CDVTimer][TotalPluginStartup] 0.384986ms
+2015-07-15 02:23:54.658 smartBuzz[39772:3897454] active
+2015-07-15 02:23:54.712 smartBuzz[39772:3897454] Resetting plugins due to page load.
+2015-07-15 02:23:54.929 smartBuzz[39772:3897454] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/208674AF-635C-40F8-9637-43CE3F95EDFB/smartBuzz.app/www/index.html
+2015-07-15 02:23:54.997 smartBuzz[39772:3897454] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 02:23:55.084 smartBuzz[39772:3897454] THREAD WARNING: ['GoogleMaps'] took '80.938232' ms. Plugin should use a background thread.
+2015-07-15 02:23:55.092 smartBuzz[39772:3897454] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 02:23:55.092 smartBuzz[39772:3897454] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 02:23:56.028 smartBuzz[39772:3897454] THREAD WARNING: ['GoogleMaps'] took '14.508789' ms. Plugin should use a background thread.
+2015-07-15 02:23:56.054 smartBuzz[39772:3897454] THREAD WARNING: ['GoogleMaps'] took '17.049072' ms. Plugin should use a background thread.
+2015-07-15 02:24:15.307 smartBuzz[39772:3897454] Resetting plugins due to page load.
+2015-07-15 02:24:16.212 smartBuzz[39772:3897454] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/208674AF-635C-40F8-9637-43CE3F95EDFB/smartBuzz.app/www/bus.html
+2015-07-15 02:30:31.714 smartBuzz[44367:3906319] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 02:30:31.715 smartBuzz[44367:3906319] Multi-tasking -> Device: YES, App: YES
+2015-07-15 02:30:31.717 smartBuzz[44367:3906319] Unlimited access to network resources
+2015-07-15 02:30:31.719 smartBuzz[44367:3906319] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 02:30:31.787 smartBuzz[44367:3906319] [CDVTimer][localnotification] 0.063002ms
+2015-07-15 02:30:31.787 smartBuzz[44367:3906319] [CDVTimer][localnotification] 0.005960ms
+2015-07-15 02:30:31.787 smartBuzz[44367:3906319] [CDVTimer][TotalPluginStartup] 0.361025ms
+2015-07-15 02:30:31.810 smartBuzz[44367:3906319] active
+2015-07-15 02:30:31.866 smartBuzz[44367:3906319] Resetting plugins due to page load.
+2015-07-15 02:30:32.102 smartBuzz[44367:3906319] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FC2CD4E1-075E-43B4-8F8E-E5207B407BD0/smartBuzz.app/www/index.html
+2015-07-15 02:30:32.183 smartBuzz[44367:3906319] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 02:30:32.265 smartBuzz[44367:3906319] THREAD WARNING: ['GoogleMaps'] took '78.680908' ms. Plugin should use a background thread.
+2015-07-15 02:30:32.272 smartBuzz[44367:3906319] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 02:30:32.272 smartBuzz[44367:3906319] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 02:30:42.297 smartBuzz[44367:3906319] Resetting plugins due to page load.
+2015-07-15 02:30:43.001 smartBuzz[44367:3906319] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FC2CD4E1-075E-43B4-8F8E-E5207B407BD0/smartBuzz.app/www/bus.html
+2015-07-15 02:30:49.889 smartBuzz[44367:3906319] Resetting plugins due to page load.
+2015-07-15 02:30:49.981 smartBuzz[44367:3906319] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/FC2CD4E1-075E-43B4-8F8E-E5207B407BD0/smartBuzz.app/www/index.html
+2015-07-15 02:30:50.062 smartBuzz[44367:3906319] THREAD WARNING: ['GoogleMaps'] took '26.658203' ms. Plugin should use a background thread.
+2015-07-15 10:28:01.616 smartBuzz[51341:3924208] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 10:28:01.618 smartBuzz[51341:3924208] Multi-tasking -> Device: YES, App: YES
+2015-07-15 10:28:01.621 smartBuzz[51341:3924208] Unlimited access to network resources
+2015-07-15 10:28:01.623 smartBuzz[51341:3924208] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 10:28:01.699 smartBuzz[51341:3924208] [CDVTimer][localnotification] 0.052989ms
+2015-07-15 10:28:01.700 smartBuzz[51341:3924208] [CDVTimer][localnotification] 0.005007ms
+2015-07-15 10:28:01.700 smartBuzz[51341:3924208] [CDVTimer][TotalPluginStartup] 0.312030ms
+2015-07-15 10:28:01.723 smartBuzz[51341:3924208] active
+2015-07-15 10:28:01.793 smartBuzz[51341:3924208] Resetting plugins due to page load.
+2015-07-15 10:28:02.046 smartBuzz[51341:3924208] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DF9CAB63-A38F-4807-91AF-65B0458BF836/smartBuzz.app/www/index.html
+2015-07-15 10:28:02.129 smartBuzz[51341:3924208] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 10:28:02.207 smartBuzz[51341:3924208] THREAD WARNING: ['GoogleMaps'] took '74.314941' ms. Plugin should use a background thread.
+2015-07-15 10:28:02.239 smartBuzz[51341:3924208] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 10:28:02.239 smartBuzz[51341:3924208] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 10:28:03.234 smartBuzz[51341:3924208] THREAD WARNING: ['GoogleMaps'] took '10.754150' ms. Plugin should use a background thread.
+2015-07-15 10:28:10.754 smartBuzz[51341:3924208] Resetting plugins due to page load.
+2015-07-15 10:28:11.402 smartBuzz[51341:3924208] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/DF9CAB63-A38F-4807-91AF-65B0458BF836/smartBuzz.app/www/manageCalendar.html
+2015-07-15 10:44:29.771 smartBuzz[55942:3938201] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-15 10:44:29.771 smartBuzz[55942:3938201] Multi-tasking -> Device: YES, App: YES
+2015-07-15 10:44:29.773 smartBuzz[55942:3938201] Unlimited access to network resources
+2015-07-15 10:44:29.775 smartBuzz[55942:3938201] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-15 10:44:29.850 smartBuzz[55942:3938201] [CDVTimer][localnotification] 0.055969ms
+2015-07-15 10:44:29.850 smartBuzz[55942:3938201] [CDVTimer][localnotification] 0.005960ms
+2015-07-15 10:44:29.850 smartBuzz[55942:3938201] [CDVTimer][TotalPluginStartup] 0.316024ms
+2015-07-15 10:44:29.885 smartBuzz[55942:3938201] active
+2015-07-15 10:44:29.929 smartBuzz[55942:3938201] Resetting plugins due to page load.
+2015-07-15 10:44:30.158 smartBuzz[55942:3938201] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/BE8A0688-72A9-4ECD-A059-2724BE3A811E/smartBuzz.app/www/index.html
+2015-07-15 10:44:30.231 smartBuzz[55942:3938201] This app uses phonegap-googlemaps-plugin version 1.2.5
+2015-07-15 10:44:30.312 smartBuzz[55942:3938201] THREAD WARNING: ['GoogleMaps'] took '76.629150' ms. Plugin should use a background thread.
+2015-07-15 10:44:30.338 smartBuzz[55942:3938201] Google Maps SDK for iOS version: 1.9.14591.0
+2015-07-15 10:44:30.339 smartBuzz[55942:3938201] New version of Google Maps SDK for iOS available: 1.10.17867.0
+2015-07-15 10:44:38.089 smartBuzz[55942:3938201] Resetting plugins due to page load.
+2015-07-15 10:44:38.498 smartBuzz[55942:3938201] Finished load of: file:///Users/Ted_Ma/Library/Developer/CoreSimulator/Devices/E6746D1E-8B0D-45D9-9B81-E921251AC777/data/Containers/Bundle/Application/BE8A0688-72A9-4ECD-A059-2724BE3A811E/smartBuzz.app/www/manageCalendar.html
