@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAONF9ZZq58YzlhsQGcFLVSRa3NGwB1EcU">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+  var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(33.77692, -84.38978),
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+   var flightPlanCoordinates = [
+     // fersatrec2fersherec
+    new google.maps.LatLng(33.77832,-84.39809),
+    new google.maps.LatLng(33.77832,-84.39889),
+    new google.maps.LatLng(33.77836,-84.39957),
+    new google.maps.LatLng(33.77843,-84.39994),
+    new google.maps.LatLng(33.7785,-84.40038),
+    new google.maps.LatLng(33.77853,-84.40064),
+    new google.maps.LatLng(33.77852,-84.40094),
+    new google.maps.LatLng(33.77845,-84.40124),
+    new google.maps.LatLng(33.77831,-84.40157),
+
+
+  // // fersherec2recctr trolley
+    new google.maps.LatLng(33.77814, -84.40183),
+    new google.maps.LatLng(33.77793, -84.4021),
+    new google.maps.LatLng(33.77775, -84.40226),
+    new google.maps.LatLng(33.77752, -84.4024),
+    new google.maps.LatLng(33.77723, -84.40246),
+    new google.maps.LatLng(33.7765, -84.40252),
+    new google.maps.LatLng(33.77585, -84.40256),
+    new google.maps.LatLng(33.77559, -84.40258),
+    new google.maps.LatLng(33.77559, -84.40258),
+    new google.maps.LatLng(33.7751, -84.40265),
+
+  // // recctr2studcentr trolley
+    new google.maps.LatLng(33.7751,-84.40265),
+    new google.maps.LatLng(33.774791,-84.402637),
+    new google.maps.LatLng(33.77459,-84.402578),
+    new google.maps.LatLng(33.774403,-84.402498),
+    new google.maps.LatLng(33.774171,-84.402369),
+    new google.maps.LatLng(33.773886,-84.401983),
+    new google.maps.LatLng(33.773707,-84.401425),
+    new google.maps.LatLng(33.773565,-84.400535),
+    new google.maps.LatLng(33.773484,-84.399869),
+    new google.maps.LatLng(33.773386,-84.399312),
+  // studcentr2tranhub trolley
+    new google.maps.LatLng(33.773386,-84.399312),
+    new google.maps.LatLng(33.773297,-84.398679),
+    new google.maps.LatLng(33.773163,-84.398013),
+    new google.maps.LatLng(33.772976,-84.397584),
+    new google.maps.LatLng(33.772771,-84.397155),
+    new google.maps.LatLng(33.773021,-84.396994),
+    new google.maps.LatLng(33.773333,-84.39708),
+    // green_fershub_tranhu
+    new google.maps.LatLng(33.77285,-84.3973),
+    new google.maps.LatLng(33.772771,-84.397144),
+    new google.maps.LatLng(33.772905,-84.397048),
+    new google.maps.LatLng(33.773088,-84.397021),
+    new google.maps.LatLng(33.773297,-84.397037),
+    // green_fershub_cherfe
+    new google.maps.LatLng(33.77234,-84.3957),
+    new google.maps.LatLng(33.77233,-84.39563),
+    new google.maps.LatLng(33.77231,-84.3956),
+    new google.maps.LatLng(33.77228,-84.39558),
+    new google.maps.LatLng(33.77222,-84.39557),
+    // green_cherfers_tep
+    new google.maps.LatLng(33.77222,-84.39557),
+    new google.maps.LatLng(33.77142,-84.39558),
+    new google.maps.LatLng(33.77137,-84.3956),
+    new google.maps.LatLng(33.77135,-84.39565),
+    new google.maps.LatLng(33.77135,-84.39597),
+    new google.maps.LatLng(33.77143,-84.39838),
+    new google.maps.LatLng(33.77135,-84.39891),
+    new google.maps.LatLng(33.7712,-84.39934),
+    new google.maps.LatLng(33.77035,-84.40128),
+    new google.maps.LatLng(33.77024,-84.40162),
+    new google.maps.LatLng(33.77018,-84.40201),
+    new google.maps.LatLng(33.77018,-84.40281),
+    new google.maps.LatLng(33.77018,-84.40305),
+    new google.maps.LatLng(33.77016,-84.40314),
+    new google.maps.LatLng(33.770153,-84.403195),
+    new google.maps.LatLng(33.770399,-84.403195),
+    new google.maps.LatLng(33.770711,-84.403206),
+    new google.maps.LatLng(33.770724,-84.403726),
+    new google.maps.LatLng(33.770724,-84.404343),
+    new google.maps.LatLng(33.770738,-84.40473),
+    new google.maps.LatLng(33.770474,-84.404687),
+    new google.maps.LatLng(33.770292,-84.404488),
+    new google.maps.LatLng(33.770136,-84.404225),
+    new google.maps.LatLng(33.77002,-84.40385),
+    new google.maps.LatLng(33.770024,-84.40326),
+    new google.maps.LatLng(33.769752,-84.40325),
+    new google.maps.LatLng(33.76974,-84.40324),
+    new google.maps.LatLng(33.76953,-84.40323),
+    new google.maps.LatLng(33.76919,-84.40323),
+    new google.maps.LatLng(33.769,-84.40319),
+    new google.maps.LatLng(33.76886,-84.4031),
+    new google.maps.LatLng(33.76875,-84.40297),
+    new google.maps.LatLng(33.76867,-84.40281),
+    new google.maps.LatLng(33.76864,-84.40262),
+    new google.maps.LatLng(33.76862,-84.40239),
+    new google.maps.LatLng(33.76863,-84.40212),
+    new google.maps.LatLng(33.76868,-84.40193),
+    new google.maps.LatLng(33.76875,-84.40188),
+    new google.maps.LatLng(33.76885,-84.40185),
+    new google.maps.LatLng(33.76898,-84.40184),
+    new google.maps.LatLng(33.76927,-84.40187),
+    new google.maps.LatLng(33.76939,-84.40192),
+    new google.maps.LatLng(33.76946,-84.40204),
+    new google.maps.LatLng(33.76949,-84.4026)
+
+  ];
+
+  // var flightPlanCoordinates = [
+
+  //   new google.maps.LatLng(33.77692,-84.38978),
+  //   new google.maps.LatLng(33.77695,-84.39171),
+
+  //   new google.maps.LatLng(33.77695,-84.39171),
+  //   new google.maps.LatLng(33.77699,-84.39405)
+
+  // ];
+  var flightPath = new google.maps.Polyline({
+    path: flightPlanCoordinates,
+    geodesic: true,
+    strokeColor: '#FF0000',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
+
+  flightPath.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+// function initialize() {
+
+//   var current = localStorage.getItem("current");
+//   var destination = localStorage.getItem("destination");
+//   var cur = current.split(",");
+//   var dest = destination.split(",");
+//   var cLat = parseFloat(cur[0]);
+//   var cLng = parseFloat(cur[1]);
+//   var dLat = parseFloat(dest[0]);
+//   var dLng = parseFloat(dest[1]);
+
+//   var centerLatLng = new google.maps.LatLng(33.7758,-84.3947);
+//   var currentLatlng = new google.maps.LatLng(cLat,cLng);
+//   var destLatlng = new google.maps.LatLng(dLat,dLng);
+//   var mapOptions = {
+//     zoom: 14,
+//     center: centerLatlng
+//   }
+//   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+//   var marker = new google.maps.Marker({
+//       position: currentLatlng,
+//       map: map,
+//       title: 'I am here!'
+//   });
+
+//   var marker1 = new google.maps.Marker({
+//       position: destLatlng,
+//       map: map,
+//       title: 'I will be here!'
+//   });
+
+// }
+
+// google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
+<div id="map-canvas"></div>
+
+<script>
+function backFunction() {
+    window.location.href = "bus.html";
+    //window.history.back();
+    //var map = plugin.google.maps.Map.getMap();
+    //loadPage(map, "whereAreYou");
+}
+</script>
+  </body>
+</html>

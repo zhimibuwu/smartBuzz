@@ -1,193 +1,1 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="calendarDemoApp" id="top">
-<head>
-    <title>AngularUI Calendar for AngularJS</title>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css">
-    <link rel="stylesheet" href="calendarDemo.css" />
-
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/ui-bootstrap-tpls-0.9.0.js"></script>
-    <script src="bower_components/moment/moment.js"></script>
-    <script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>
-    <script src="bower_components/fullcalendar/dist/gcal.js"></script>
-    <script src="src/calendar.js"></script>
-    <script src="calendarDemo.js"></script>
-</head>
-<body data-spy="scroll" style="width:55%">
-<div role="main" style="width:50%">
-    <div class="container">
-        <section id="directives-calendar" ng-controller="CalendarCtrl">
-            <div class="well" style="width:33%">
-                <div class="row-fluid">
-
-                    <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
-                    <div class="span8" data-role="page" id="pageone" style="width: 100%">
-                        <a href="#pagetwo"
-                           data-transition="slide"><i class="fa fa-angle-double-down" style="margin-left: 90%; margin-top: 5%">Add
-                            Event</i></a>
-                        <tabset>
-                            <tab select="renderCalender('myCalendar1');">
-                              <tab-heading>
-                               <i class="glyphicon glyphicon-bell"></i> Calendar One
-                              </tab-heading>
-                              <div class="alert-success calAlert" ng-show="alertMessage != undefined && alertMessage != ''">
-                                <h4>{{alertMessage}}</h4>
-                              </div>
-                              <div class="btn-toolbar">
-                                <p class="pull-right lead">Calendar One View Options</p>
-                                <div class="btn-group">
-                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar1')">AgendaDay</button>
-                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar1')">AgendaWeek</button>
-                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar1')">Month</button>
-                                </div>
-                              </div>
-                            <div class="calendar" ng-model="eventSources" calendar="myCalendar1" ui-calendar="uiConfig.calendar"></div>
-                           </tab>
-                           <tab select="renderCalender('myCalendar2');">
-                            <tab-heading>
-                              <i class="glyphicon glyphicon-bell"></i> Calendar Two
-                            </tab-heading>
-                              <div class="alert-success calAlert" ng-show="alertMessage != undefined && alertMessage != ''">
-                                <h4>{{alertMessage}}</h4>
-                              </div>
-                              <div class="btn-toolbar">
-                                <p class="pull-right lead">Calendar Two View Options</p>
-                                <div class="btn-group">
-                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar2')">AgendaDay</button>
-                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar2')">AgendaWeek</button>
-                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar2')">Month</button>
-                                </div>
-                              </div>
-                            <div class="calendar" ng-model="eventSources" calendar="myCalendar2" ui-calendar="uiConfig.calendar"></div>
-                           </tab>
-                           <tab select="renderCalender('myCalendar3');">
-                            <tab-heading>
-                              <i class="glyphicon glyphicon-bell"></i> Calendar Three
-                            </tab-heading>
-                              <div class="alert-success calAlert">
-                                <h4>This calendar uses the extended form</h4>
-                              </div>
-                              <div class="btn-toolbar">
-                                <p class="pull-right lead">Calendar Three View Options</p>
-                                <div class="btn-group">
-                                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar3')">AgendaDay</button>
-                                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar3')">AgendaWeek</button>
-                                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar3')">Month</button>
-                                </div>
-                              </div>
-                            <div class="calendar" ng-model="eventSources2" calendar="myCalendar3" ui-calendar="uiConfig.calendar"></div>
-                           </tab>
-                        </tabset>
-                    </div>
-
-                    <div class="span4" data-role="page" id="pagetwo" style="width: 100%">
-                        <a href="#pageone" data-transition="slide" data-direction="reverse"><i
-                                class="fa fa-angle-double-up" style="margin-left: 90%; margin-top: 5%">Back</i></a>
-                        <div class="btn-group calTools">
-                            <button class="btn" ng-click="addRemoveEventSource(eventSources,eventSource)">
-                                Toggle Source
-                            </button>
-                            <button type="button" class="btn btn-primary btn-info btn-lg" data-toggle="modal"
-                                    data-target="#myModal">
-                                Add Event
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" role="dialog" style="height: 63%;width:75%;left:105%">
-                                <div class="modal-dialog" style="margin: 0%">
-
-                                    <!-- Modal content-->
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">Add Event</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form id="addEvent">
-                                                <div>
-                                                    Title:<br>
-                                                    <input type="text" name="_title">
-                                                </div>
-                                                <div>
-                                                    Date:    <input type="date" name="_date">
-                                                </div>
-                                                <div>
-                                                    StartTime:    <input type="datetime" name="_datatime">
-                                                </div>
-                                                <div>
-                                                    EndTime: <input type="datetime" name="_enddatatime">
-                                                </div>
-                                                <div>
-                                                    Location:<input type="text" name="_location">
-                                                </div>
-                                                Notification: <input type="checkbox" style="background-color: green;" name="_notification">
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-default btn-sm"
-                                                    ng-click="addEvent()" data-dismiss="modal">Save
-                                            </button>
-                                            <button type="button" class="btn btn-default btn-sm"
-                                                    data-dismiss="modal">Cancel
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <ul class="unstyled">
-                            <li ng-repeat="e in events">
-                                <div class="alert alert-info">
-                                    <a class="close" ng-click="remove($index)"><i class="icon-remove"></i></a>
-                                    <b> <input ng-model="e.title"></b>
-                                    {{e.start | date:"MMM dd"}} - {{e.end | date:"MMM dd"}}
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </div>
-</div>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-17352735-3']);
-            _gaq.push(['_trackPageview']);
-            (function () {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-
-        </script>
-
-        <script>
-function backFunction() {
-    window.location.href = "index.html";
-    //window.history.back();
-    //var map = plugin.google.maps.Map.getMap();
-    //loadPage(map, "whereAreYou");
-}
-</script>
-
-    </body>
-</html>
+<!DOCTYPE html><html><head><meta charset='utf-8' /><!--for jquery ui--><!-- <link href="jquery.fullcalendar.css" rel="stylesheet" /><link href="jquery-ui.css" rel="stylesheet" /> --><!--for sweet alert--><link rel="stylesheet" type="text/css" href="sweetalert.css"><!--for date picker--><link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css'><link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2708/bootstrap-datetimepicker.min.css'><!--for popup dialog--><!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">--><!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">--><link href='fullcalendar.css' rel='stylesheet' /><link href='fullcalendar.print.css' rel='stylesheet' media='print' /><!--for sweet alert--><script src="sweetalert.min.js"></script><script src="js/shared/angular.min.js"></script><!--for date picker--><script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><!--<script src='http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js'></script>--><script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2708/bootstrap-datetimepicker.min.js'></script><script src="datePicker.js"></script><!--for jquery ui--><script src="jquery.fullcalendar.min.js"></script><script src="jquery-ui.min.js"></script><!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>--><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script src='moment.min.js'></script><script src='fullcalendar.min.js'></script><script type="text/javascript" src="cordova.js"></script><script type="text/javascript" src="js/index.js"></script><script>    $(document).ready(function() {        $('#button-new').click(function() {            var _title = document.getElementById('eventTitle-new').value;            var _date = document.getElementById('eventTime-new').value;            var _endDate = document.getElementById('eventTime-new-end').value;            var _location = document.getElementById('eventLocation-new').value;            var _notification = document.getElementById('notification-new').checked;            var _dateToISO =                    _date.split(" ")[0].split("/")[2]+"-"+_date.split(" ")[0].split("/")[1]+"-"+_date.split(" ")[0].split("/")[0]+"T"+_date.split(" ")[1];            var _dateEndToISO =                    _endDate.split(" ")[0].split("/")[2]+"-"+_endDate.split(" ")[0].split("/")[1]+"-"+_endDate.split(" ")[0].split("/")[0]+"T"+_endDate.split(" ")[1];            var newEvent = {                title: _title,                start: _dateToISO,                end: _dateEndToISO,                location: _location,                notification: _notification            };            $('#calendar').fullCalendar('renderEvent', newEvent , 'stick');            var  _30_min_before_event = new Date(_dateToISO - 30 * 60 * 1000);        var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';    cordova.plugins.notification.local.schedule({        id: 1,        title: '30 min before event',        text: 'Check bus info',        at: _30_min_before_event,        sound: sound,        badge: 1        });    cordova.plugins.notification.local.on('click', function (notification) {                    //alert("click");                    window.location.href = "bus.html";                    //console.log('onclick', arguments);                    //showToast('clicked: ' + notification.id);                });    };        cordova.plugins.notification.local.on('trigger', function (notification) {                    //alert("trigger");                    //console.log('ontrigger', arguments);                    //showToast('triggered: ' + notification.id);                    window.location.href = "bus.html";                });        });        $('#calendar').fullCalendar({            header: {                left: 'prev,next today',                center: 'title',                right: 'month,agendaWeek,agendaDay'            },            defaultDate: '2015-07-12',            selectable: true,            selectHelper: true,            editable: true,            eventLimit: true, // allow "more" link when too many events            events: [                {                    title: 'All Day Event',                    start: '2015-07-01'                },                {                    title: 'Long Event',                    start: '2015-07-07',                    end: '2015-07-10'                },                {                    id: 999,                    title: 'Repeating Event',                    start: '2015-07-09T16:00:00'                },                {                    id: 999,                    title: 'Repeating Event',                    start: '2015-07-16T16:00:00'                },                {                    title: 'Conference',                    start: '2015-07-11',                    end: '2015-07-13'                },                {                    title: 'Meeting',                    start: '2015-07-12T10:30:00',                    end: '2015-07-12T12:30:00'                },                {                    title: 'Lunch',                    start: '2015-07-12T12:00:00'                },                {                    title: 'Meeting',                    start: '2015-07-12T14:30:00'                },                {                    title: 'Happy Hour',                    start: '2015-07-12T17:30:00'                },                {                    title: 'Dinner',                    start: '2015-07-12T20:00:00'                },                {                    title: 'Birthday Party',                    start: '2015-07-13T07:00:00'                },                {                    title: 'Click for Google',                    url: 'http://google.com/',                    start: '2015-07-28'                }            ],            eventClick: function(calEvent, jsEvent, view) {            $('#Modal-Manage').modal({                show:true            }),            $('#eventTitle').val(calEvent.title);            $('#eventTime').val(calEvent.start);            $('#eventTime-end').val(calEvent.end);            $('#eventLocation').val(calEvent.location);            $('#notification').val(calEvent.notification);            $('#button-delete').click(function() {            $('#calendar').fullCalendar( 'removeEvents', calEvent._id);            });            $('#button-submit').click(function(){                var _title = document.getElementById('eventTitle').value;                var _date = document.getElementById('eventTime').value;                var _endDate = document.getElementById('eventTime-end').value;                var _location = document.getElementById('eventLocation').value;                var _notification = document.getElementById('notification').checked;                var _dateToISO =                        _date.split(" ")[0].split("/")[2]+"-"+_date.split(" ")[0].split("/")[1]+"-"+_date.split(" ")[0].split("/")[0]+"T"+_date.split(" ")[1];                var _dateEndToISO =                        _endDate.split(" ")[0].split("/")[2]+"-"+_endDate.split(" ")[0].split("/")[1]+"-"+_endDate.split(" ")[0].split("/")[0]+"T"+_endDate.split(" ")[1];                var newEvent = {                    title: _title,                    start: _dateToISO,                    end: _dateEndToISO,                    location: _location,                    notification: _notification                };                $('#calendar').fullCalendar('renderEvent', newEvent , 'stick');                $('#calendar').fullCalendar( 'removeEvents', calEvent._id);            });        }        });    });</script><script>    function backFunction() {        window.location.href = "index.html";        //window.history.back();        //var map = plugin.google.maps.Map.getMap();        //loadPage(map, "whereAreYou");    }// event Schema:// title// startDate// location// endDate  function onSuccess(msg) {    // alert("onSuccess function is called");    var localStorage = window.localStorage;    var eventList = [];    for (i=0; i<msg.length; i++){        var _date = msg[i]["startDate"];        var _endDate = msg[i]["endDate"]        var _dateToISO = _date.split(" ")[0]+"T"+_date.split(" ")[1];        var _dateEndToISO =_endDate.split(" ")[0]+"T"+_endDate.split(" ")[1];        var _location = msg[i]["location"].replace("\n",",");                  var newEvent = {                title: msg[i]["title"],                start: _dateToISO,                end: _dateEndToISO,                location: _location,                notification: false            };         $('#calendar').fullCalendar('renderEvent', newEvent , 'stick');            eventList.push(msg[i]);    }    // alert(JSON.stringify(eventList));    localStorage.setItem("eventList",JSON.stringify(eventList));  }  function onError(msg) {    alert('Calendar error: ' + JSON.stringify(msg));  }  var startDate = new Date();  var endDate = new Date("October 13, 2015 11:13:00");  // clean up the dates a bit  startDate.setMinutes(0);  endDate.setMinutes(0);  startDate.setSeconds(0);  endDate.setSeconds(0);    function syncEvent(){        // window.plugins.calendar.listCalendars(onSuccess, onError);        window.plugins.calendar.findEvent(null, null, null, startDate, endDate, onSuccess, onError);    }</script><style>    body {        margin: 40px 10px;        padding: 0;        font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;        font-size: 14px;    }    #calendar {        max-width: 900px;        margin: 0 auto;    }</style></head><body><!-- Modal Manage Event--><button onclick="backFunction()" style="width:90px;height:37px">Back</button><div id="Modal-Manage" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"     aria-hidden="true">    <div class="modal-header">        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>        <h3 id="myModalLabel">Edit Event</h3>    </div>    <div class="modal-body">        <p>Event Title: </p>        <div><input type="text" id="eventTitle"></div>        <p>Event Start Time: </p>        <div id="datetimepicker1" class="input-append date">            <input data-format="dd/MM/yyyy hh:mm:ss" type="text" id="eventTime">            <span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>        </div>        <p>Event End Time: </p>        <div id="datetimepicker1-end" class="input-append date">            <input data-format="dd/MM/yyyy hh:mm:ss" type="text" id="eventTime-end">            <span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>        </div>        <p>Event Location: </p>        <div><input type="text" id="eventLocation"></div>        <p>Need Notification? </p>        <input type="checkbox" id="notification"> Yes    </div>    <div class="modal-footer">        <button class="btn" data-dismiss="modal" aria-hidden="true" id="button-submit" style="background-color:        #3a87ad; background-image: none; color: white; text-shadow: none">Submit        </button>        <button class="btn" data-dismiss="modal" aria-hidden="true" id="button-delete"                style="background-color: #FF5C5C; background-image: none; color: white; text-shadow: none">Delete Event</button>    </div></div><!-- Button to trigger modal --><a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal" data-target=".calendar-new">Create Event</a><!-- Modal New Event--><div class="modal hide fade calendar-new" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">    <div class="modal-header">        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>        <h3>Create Event</h3>    </div>    <div class="modal-body">        <p>Event Title: </p>        <div><input type="text" id="eventTitle-new"></div>        <p>Event Start Time: </p>        <div id="datetimepicker-new" class="input-append date">            <input data-format="dd/MM/yyyy hh:mm:ss" type="text" id="eventTime-new">            <span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>        </div>        <p>Event End Time: </p>        <div id="datetimepicker-new-end" class="input-append date">            <input data-format="dd/MM/yyyy hh:mm:ss" type="text" id="eventTime-new-end">            <span class="add-on"><i data-time-icon="icon-time" data-date-icon="icon-calendar"></i></span>        </div>        <p>Event Location: </p>        <div><input type="text" id="eventLocation-new"></div>        <p>Need Notification? </p>        <input type="checkbox" id="notification-new"> Yes    </div>    <div class="modal-footer">        <button class="btn" data-dismiss="modal" aria-hidden="true" id="button-new">Submit</button>    </div></div><!-- <button type="button" class="btn btn-primary" ng-click="getEventsEmptySplice()">Sync</button> --><button type="button" class="btn btn-primary" onclick="syncEvent()">Sync</button>    <div id='calendar'></div></body></html>

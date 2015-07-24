@@ -27,7 +27,7 @@
     <div id="v-nav">
 
     <button onclick="backFunction()" style="width:90px;height:37px">Back</button>
-   <!--  <button onclick="scheduleDelayed()" style="width:120px;height:37px">In 5 sec</span></button> -->
+    <!-- <button onclick="scheduleDelayed()" style="width:120px;height:37px">In 10 sec</span></button> -->
 
     <ul>
         <li tab="tab1" class="first current">Walk</li>
@@ -97,10 +97,13 @@
         <hr>
         <h4> Get off at </h4>
         <p>    {{busInfo.end_at}} </p>
+        <hr>
+        <h4> Estimated Time </h4>
+        <p> 6 min </p>
         <!-- <hr>
         <h4> Status </h4>
         <p>    {{busInfo.status}} </p> -->
-         
+        <button onclick="myMap()" style="width:200px;height:37px">Go To Map!</button>
     </div>
 
     </div>
@@ -196,21 +199,50 @@ function backFunction() {
 </script>
 
 <script>
- function  scheduleDelayed () {
-    var now = new Date().getTime(),
-    _5_sec_from_now = new Date(now + 5 * 1000);
+function myMap() {
+    window.location.href = "map.html";
+    //window.history.back();
+    //var map = plugin.google.maps.Map.getMap();
+    //loadPage(map, "whereAreYou");
+}
+</script>
 
-    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+<script type="text/javascript">
+            app.initialize();
+</script>
 
-    cordova.plugins.notification.local.schedule({
-        id: 1,
-        title: 'Scheduled with delay',
-        text: 'Test Message 1',
-        at: _5_sec_from_now,
-        sound: sound,
-        badge: 1
-        });
-    };
+<script type="text/javascript">
+            var id = 1, dialog;
+
+            callback = function () {
+                cordova.plugins.notification.local.getIds(function (ids) {
+                    showToast('IDs: ' + ids.join(' ,'));
+                });
+            };
+
+            showToast = function (text) {
+                setTimeout(function () {
+                    if (device.platform != 'windows') {
+                        window.plugins.toast.showShortBottom(text);
+                    } else {
+                        showDialog(text);
+                    }
+                }, 100);
+            };
+
+            showDialog = function (text) {
+                if (dialog) {
+                    dialog.content = text;
+                    return;
+                }
+
+                dialog = new Windows.UI.Popups.MessageDialog(text);
+
+                dialog.showAsync().done(function () {
+                    dialog = null;
+                });
+            };
+
 </script>
 
 </body>

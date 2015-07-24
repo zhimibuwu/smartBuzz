@@ -1,0 +1,27 @@
+var  _30_min_before_event = new Date(_dateToISO - 30 * 60 * 1000);
+
+        var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+
+    cordova.plugins.notification.local.schedule({
+        id: 1,
+        title: '30 min before event',
+        text: 'Check bus info',
+        at: _30_min_before_event,
+        sound: sound,
+        badge: 1
+        });
+
+    cordova.plugins.notification.local.on('click', function (notification) {
+                    //alert("click");
+                    window.location.href = "bus.html";
+                    //console.log('onclick', arguments);
+                    //showToast('clicked: ' + notification.id);
+                });
+    
+    cordova.plugins.notification.local.on('trigger', function (notification) {
+                    //alert("trigger");
+                    //console.log('ontrigger', arguments);
+                    //showToast('triggered: ' + notification.id);
+                    window.location.href = "bus.html";
+                });
+

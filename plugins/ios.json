@@ -55,6 +55,14 @@
                         {
                             "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -156,6 +164,18 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "AssetsLibrary.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "MobileCoreServices.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -217,6 +237,9 @@
         },
         "io.litehelpers.cordova.sqlite": {
             "PACKAGE_NAME": "com.examle.myapp"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.examle.myapp"
         }
     },
     "dependent_plugins": {
@@ -227,6 +250,9 @@
             "PACKAGE_NAME": "com.examle.myapp"
         },
         "org.apache.cordova.device": {
+            "PACKAGE_NAME": "com.examle.myapp"
+        },
+        "org.apache.cordova.file": {
             "PACKAGE_NAME": "com.examle.myapp"
         }
     }
