@@ -18,4 +18,8 @@
 * Provide the travel time/route of both walking and taking bus (bus switching included) to help the user better decide whether to walk or take the bus (what user wants to do)
 * Provide real-time navigation (needed by certain users)
 * Customized personal calendar and send location-based notification (inform the user what they need)
+
+#### Demo:
+
+* You may want to check our app in action in this video: https://www.youtube.com/watch?v=rFKt68AH6Yk
 ￼
