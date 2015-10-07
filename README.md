@@ -1,6 +1,6 @@
 # smartBuzz
 
-## This is a course project for Mobile Application and Service. 
+## This is a course project for Mobile Application and Service in Georgia Tech. 
 
 ### Basic Info:
 
