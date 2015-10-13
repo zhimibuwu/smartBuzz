@@ -9,7 +9,7 @@
 
 #### Key pains:
 
-* Freshmen/visitorshavenoideawhethertowalkortakea bus, nor do they know where to switch from one bus line to another
+* Freshmen/visitors have no idea whether to walk or take a bus, nor do they know where to switch from one bus line to another
 * Sometimes users cannot use existing apps because they do not know what some abbreviations of place stand for
 * The existing bus apps do not automatically send users notification in advance whenever they need it; nor do they provide weather information to help users choose their travel mode
 
